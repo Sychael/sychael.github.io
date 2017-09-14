@@ -1,0 +1,37 @@
+extends ../layout
+
+block title
+  title Sychael Web Design & Development
+  
+block description
+  meta(name="description" content="Website Construction personally builds professional websites to suit just what you need to reach your audience.")
+
+block main
+  section.hero(role="complementary")
+    .heading-hero 
+      h1.redbox Personally Professional Websites
+      h2 Communicating Your Personal Message Professionally &amp; Affordably
+      p I Create Functional, Clean, Essential Websites, So You Can Share Your Vision Effectively on The Web. website.
+  section#meet(role="complementary")  
+    h3 Meet the Developer
+    .box-wrap
+      a.box.home(href="about.html")
+        img.box-img(src="img/logo/logo.svg" alt="The Builder of Sychael")
+  section.portfolio#hello
+    h3 View Sychael Sites
+    h4 My Portfolio
+    figure.box
+      a(href="http://www.advantageroofcleaning.com")
+        figcaption Advantage Roof Cleaning
+        img(src="img/logo/sites/advantage.svg" alt="Advantage Roof Cleaning Website Link")
+    figure.box
+      a(href="https://www.theleadonemovement.com" target="_blank")
+        figcaption Lead One Movement
+        img(src="img/logo/sites/leadone.svg" alt="Lead One Movement Website Link")
+    figure.box
+      a(href="https://www.dominicanadvance.org" target="_blank")
+        figcaption Dominican Advance
+        img(src="img/logo/sites/dalogo.svg" alt="Dominican Advance Website Link")
+
+block footer
+  include ../components/action

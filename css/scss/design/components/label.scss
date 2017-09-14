@@ -1,0 +1,17 @@
+/// TOOLTIP ///
+.label-container {
+  @include tooltip;
+}
+.label-container .label {
+  display: none;
+  top: 100%;
+  color: $charcoal;
+  font-weight: 100;
+  position: absolute;
+  transition: all .2s ease;
+}
+@include breakpoint() {
+  .label-container:hover .label {
+    display: block;
+  }
+}

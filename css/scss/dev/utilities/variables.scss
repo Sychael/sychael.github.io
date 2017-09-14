@@ -1,0 +1,78 @@
+/// FONTS ////
+
+  $font-heading: "Raleway", sans-serif;
+  $font-primary: "Montserrat", sans-serif;
+
+
+/// COLORS ///
+
+  $transparent: rgba(0,0,0,0);
+  $wine: #9C3952;
+  $white: #F6F6F6;
+  $charcoal: #262626;
+
+      /// WINE
+      $wine-wash: lighten($wine, 43%);
+      $wine-brightest: lighten($wine, 18%);
+      $wine-bright: lighten($wine, 15%);
+      $wine-lightest: lighten($wine, 9%);
+      $wine-light: lighten($wine, 6%);
+      $wine-lighten: lighten($wine, 3%);
+      $wine-original: $wine;
+      $wine-darken: darken($wine, 3%);
+      $wine-dark: darken($wine, 6%);
+      $wine-darkest: darken($wine, 9%);
+      // WINE-OPACITY
+      $wine-trans: rgba($wine, .9);
+
+      /// WHITE
+      $white-pure: lighten($white, 6%);
+      $white-original: $white;
+      $white-slush: darken($white, 3%);
+      $white-dirt: darken($white, 6%);
+      $white-polluted: darken($white, 9%);
+      // WHITE-OPACITY
+      $white-fade: rgba($white, .98);
+      $white-trans: rgba($white, .9);
+      $white-transp: rgba($white, .8);
+
+      /// CHARCOAL
+      $charcoal-lightest: lighten($charcoal, 15%);
+      $charcoal-lighter: lighten($charcoal, 9%);
+      $charcoal-light: lighten($charcoal, 3%);
+      $charcoal-original: $charcoal;
+      $charcoal-pure: darken($charcoal, 6%);
+      // CHARCOAL-OPACITY
+      $charcoal-opaq: rgba($charcoal-pure, .95);
+      $charcoal-transl: rgba($charcoal-pure, .7);
+      $charcoal-trans: rgba($charcoal-pure, .50);
+
+
+/// AMOUNTS ///
+
+  $amount-none: 0;
+  $amount-narrow: 3px;
+  $amount-small: 6px;
+  $amount-average: 9px;
+  $amount-medium: 12px;
+  $amount-median: 15px;
+  $amount-large: 18px;
+  $amount-wide: 21px;
+  $amount-open: 24px;
+  $amount-superlarge: 33px;
+  $amount-enormous: 45px;
+
+
+/// QUERIES ///
+
+  $breakpoint-devices-default: 320px;
+  $breakpoint-devices-medium-cell: 375px;
+  $breakpoint-devices-large-cell: 411px;
+  $breakpoint-devices-tablet: 768px;
+  $breakpoint-devices-main: 900px;
+  $breakpoint-devices-main: 900px;
+  $mediaquery-print: print;
+
+/// WEBSITE FEATURES ///
+
+  $top-color-bar: true;

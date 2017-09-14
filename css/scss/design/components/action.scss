@@ -1,0 +1,13 @@
+/// CALL TO ACTION ///
+
+.sub-footer {
+  background-color: $charcoal-light;
+  padding: $amount-enormous;
+  text-align: center;
+  a {
+    background-color: $wine;
+    padding: $amount-average $amount-open;
+    font-size: 1.5rem;
+    color: $white;
+  }
+}

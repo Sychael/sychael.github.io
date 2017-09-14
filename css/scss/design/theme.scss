@@ -1,0 +1,111 @@
+/// GENERALS ///
+
+::selection {
+  background-color: $wine-light;
+  color: white;
+}
+
+:focus {
+  padding: 9px;
+}
+
+body {
+  background: linear-gradient(to top, $wine-dark 2%, $white);
+}
+
+/// ELEMENTS ///
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  text-align: center;
+  padding: $amount-none $amount-large;
+  @include breakpoint($breakpoint-devices-medium-cell) {
+    font-size: 1.8rem;
+  }
+  @include breakpoint($breakpoint-devices-large-cell) {
+    font-size: 2.1rem;
+  }
+  @include breakpoint($breakpoint-devices-tablet) {
+    font-size: 2.75rem;
+  }
+  @include breakpoint() {
+    font-size: 3.2rem;
+  }
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-align: center;
+  @include breakpoint($breakpoint-devices-medium-cell) {
+    font-size: 1.3rem;
+  }
+  @include breakpoint($breakpoint-devices-large-cell) {
+    font-size: 1.6rem;
+  }
+  @include breakpoint($breakpoint-devices-tablet) {
+    font-size: 2rem;
+  }
+  @include breakpoint() {
+    font-size: 2.5rem;
+  }
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+h4 {
+  margin: 0;
+}
+
+
+a {
+  transition: transition();
+  font-weight: 300;
+  &:hover {
+    color: $wine;
+  }
+}
+
+p {
+  font-family: $font-primary;
+  font-weight: 300;
+}
+
+/// IMAGES ///
+
+figure {
+  @include breakpoint() {
+    display: inline-block;
+    margin: $amount-open $amount-large;
+  }
+  figcaption {
+    font-size: 1.5em;
+  }
+}
+
+/// REOCCURRING CLASSES ///
+
+@include breakpoint() {
+  .mobile {
+    display: none;
+  }
+}
+
+/// DIVS ///
+
+.redbox {
+  background-color: $wine-trans;
+  padding: $amount-medium $amount-none;
+  color: $white;
+  @include breakpoint($breakpoint-devices-medium-cell) {
+    padding: 16px $amount-none;
+  }
+  @include breakpoint($breakpoint-devices-tablet) {
+    padding: $amount-open $amount-none;
+  }
+}

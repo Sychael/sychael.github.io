@@ -1,0 +1,69 @@
+/// SECTIONS ///
+
+html {
+	font-size: 100%;
+  margin: 0;
+  font-family: $font-primary;
+}
+
+body {
+  margin: 0;
+	color: $charcoal;
+	background-color: $white;
+}
+
+/// TEXT ELEMENTS ///
+
+h1, h2, h3, h4 {
+	margin: $amount-large $amount-small;
+  font-family: $font-heading;
+	transition: transition();
+}
+
+p {
+  white-space: pre-wrap;
+}
+
+a {
+  text-decoration: none;
+  color: $charcoal;
+}
+
+a,
+select:hover,
+button {
+  cursor: pointer;
+}
+
+a, span, figcaption, button, input, option {
+  font-family: $font-primary;
+}
+
+/// BLOCK ELEMENTS ///
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+	&::selection {
+		background: none;
+	}
+}
+
+table {
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset {
+	border: none;
+}
+
+/// INLINE ELEMENTS ///
+
+span {
+  display: inline-block;
+}

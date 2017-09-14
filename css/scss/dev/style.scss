@@ -1,0 +1,34 @@
+///////// STYLES IMPORT SHEET /////////
+
+////// DEVELOPMENT //////
+
+@import "utilities/variables";
+@import "utilities/functions";
+@import "utilities/mixins";
+
+////// DESIGN //////
+
+/// BASICS ///
+@import "../design/essentials";
+@import "../design/layout";
+@import "../design/theme";
+
+/// SECTIONS ///
+@import "../design/sections/header";
+@import "../design/sections/main";
+@import "../design/sections/footer";
+
+/// COMPONENTS ///
+@import "../design/components/action";
+@import "../design/components/hero";
+@import "../design/components/projects-work";
+@import "../design/components/form";
+@import "../design/components/box";
+@import "../design/components/label";
+
+/// PAGES ///
+@import "../design/pages/index";
+@import "../design/pages/about";
+@import "../design/pages/work";
+@import "../design/pages/contact";
+@import "../design/pages/404";

@@ -1,0 +1,11 @@
+block pages
+  - var navLink = {'Home' : '../index.html', 'About' : '../about.html', 'Contact' : '../contact.html'};
+
+.top-bar(role="decoration")
+header
+  .logo-container
+    a(href="index.html")
+      img.logo(src="img/logo/sychael-logo.svg" alt="Cycle Web Design and Development Logo")
+  nav
+    img.hamburger-menu(src="img/menu/menu-hamburger.svg" alt="Navigation Menu")
+    include ../components/nav

@@ -1,0 +1,13 @@
+img.profile {
+  display: block;
+  margin: $amount-average auto;
+  width: 7em;
+  border-radius: 100%;
+  border: $wine-trans 2px solid;
+  border-radius: 50%;
+  @include breakpoint($breakpoint-devices-tablet) {
+    float: left;
+    margin: $amount-none $amount-large;
+    text-align: left;
+  }
+}

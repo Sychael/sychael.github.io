@@ -1,0 +1,52 @@
+/// BREAKPOINT ///
+
+  @mixin breakpoint($value: $breakpoint-devices-main) {
+    @media(min-width: #{$value}) {
+      @content;
+    }
+  }
+
+/// ANIMATIONS ///
+
+  @mixin transform($type: scale, $amount: 1.03) {
+    transform: scale($amount);
+  }
+
+/// ELEMENTS ///
+
+  /// FORMS
+    @mixin input {
+      background: $white-trans;
+      color: $charcoal;
+      border: .5px solid $white;
+      margin: 0 auto;
+      padding: 3px 6px;
+      font-weight: 100;
+      text-align: left;
+    }
+
+  // IMAGES
+
+    @mixin figure() {
+      figcaption {
+        background-color: $wine;
+        text-align: center;
+        font-weight: 500;
+        color: $white;
+      }
+    }
+
+/// THEME FEATURES ///
+
+    @mixin syrchael() {
+      background-color: $wine-light;
+      border-radius: 100%;
+      margin-right: 9px;
+      padding: 5px 13px;
+    }
+
+    @mixin tooltip() {
+      display: inline-block;
+      position: relative;
+      transition: transition();
+    }

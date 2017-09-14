@@ -1,0 +1,25 @@
+#name {
+  text-transform: capitalize;
+}
+#email {
+  text-transform: lowercase;
+}
+section {
+  text-align: center;
+}
+.contact-info {
+  display: inline-block;
+  background-color: $charcoal;
+  padding: $amount-average $amount-open;
+  a {
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: $white;
+  }
+}
+
+img.img-icon-phone {
+  width: 2rem;
+  margin-right: $amount-median;
+  vertical-align: middle;
+}

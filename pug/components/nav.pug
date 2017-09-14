@@ -1,0 +1,8 @@
+ul.reveal
+  each pageLink, pageName in navLink
+    li
+      block pages
+      if activePage === pageName
+        a.active-nav-link(href=pageLink)= pageName
+      else
+        a(href=pageLink)= pageName

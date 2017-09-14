@@ -1,0 +1,13 @@
+/// TRANSITIONS ///
+
+  @function transition($property: all, $duration: .09s, $method: ease) {
+    @return $property $duration $method;
+  }
+
+  @function transition-medium($property: all, $duration: .6s, $method: ease) {
+    @return $property $duration $method;
+  }
+
+  @function transition-long($property: all, $duration: 4s, $method: ease) {
+    @return $property $duration $method;
+  }

@@ -1,0 +1,45 @@
+.box {
+  display: block;
+  margin: $amount-average auto;
+  background-color: $charcoal-light;
+  border-radius: 9px;
+  vertical-align: top;
+  margin: 2em auto;
+  width: 80%;
+  opacity: .95;
+  transition: transition();
+  &:hover {
+    opacity: 1;
+  }
+  @include breakpoint() {
+    display: inline-block;
+    width: 29%;
+    min-width: 22em;
+    vertical-align: top;
+    margin: 1.25em;
+  }
+  img {
+    padding: $amount-median;
+  }
+  h4 {
+    color: $white;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin: -6px 0 0;
+  }
+  ul {
+    margin: 9px 0;
+  }
+  li {
+    color: $white;
+    font-size: .95em;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 19px;
+  }
+  p {
+    margin: 0 13px 9px 19px;
+    color: $white;
+    text-align: left;
+  }
+}

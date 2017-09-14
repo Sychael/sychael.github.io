@@ -1,0 +1,124 @@
+// TOP BAR //
+
+@if($top-color-bar == true) {
+    .top-bar {
+      background: linear-gradient(to top, $wine-lighten, $wine-dark);
+      height: $amount-average;
+      top: -$amount-small;
+      position: sticky;
+      z-index: 3;
+  }
+}
+
+/// HEADER ///
+header {
+  display: flex;
+  background-color: $white-fade;
+  top: $amount-narrow;
+  position: sticky;
+  padding: 0 $amount-average;
+  justify-content: space-between;
+  align-items: center;
+  transition: transition();
+  @include breakpoint($breakpoint-devices-medium-cell) {
+    padding: $amount-none $amount-large;
+  }
+}
+
+// LOGO //
+
+.logo-container {
+  height: 4em;
+  margin: $amount-medium 0;
+  transition: transition();
+  @include breakpoint() {
+    height: 5em;
+  }
+}
+img.logo {
+  position: absolute;
+  height: 4em;
+  clip: rect(0, 4.1em, 5em, 0);
+  transition: transition();
+  @include breakpoint() {
+    clip: rect(0, 23.7em, 5em, 0);
+    height: 4.5em;
+  }
+}
+
+
+// NAVIGATION //
+
+img.hamburger-menu {
+  width: 5em;
+  cursor: pointer;
+  transition: transition();
+  @include breakpoint {
+    margin-right: -55px;
+    display: none;
+  }
+}
+
+nav {
+  .reveal {
+    top: -280px;
+    padding: 0;
+    transition: all .3s ease;
+    @include breakpoint() {
+      display: flex;
+    }
+  .active-nav-link {
+    color: $wine;
+    font-weight: 500;
+  }
+  }
+  ul {
+    transition: all .3s ease;
+    position: absolute;
+    top: 4.5em;
+    left: 0;
+    background: $charcoal-opaq;
+    padding: 0;
+    width: 100%;
+    @include breakpoint() {
+      background: none;
+      position: initial;
+    }
+  }
+  li {
+    text-align: center;
+    &:hover {
+      background: $wine;
+    }
+  }
+  a {
+    display: block;
+    padding: $amount-large;
+    font-size: 1.5em;
+    color: $white;
+    &:hover {
+      font-weight: 400;
+      color: $white;
+    }
+    @include breakpoint() {
+      color: $charcoal;
+    }
+  }
+}
+
+header {
+  &:after {
+    content: "";
+    display: block;
+    top: 5.4em;
+    left: 0;
+    position: absolute;
+    height: 9px;
+    width: 100%;
+    background: linear-gradient(to bottom, $charcoal-pure, $transparent);
+    transition: transition();
+    @include breakpoint() {
+      top: 6.5em;
+    }
+  }
+}
