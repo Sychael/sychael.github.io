@@ -1,42 +1,46 @@
 extends ../layout
 
 block title
-  title About Sychael Development
+  title About Sychael
 
 block description
-  meta(name="description" content="Information about Website Construction.")
+  meta(name="description" content="Freelance Web Developer, passionate about God and creating functional, clean, concise websites, which represent your identity.")
     
 block main
-  section
+  section.section-container.principal
     h1.redbox About Sychael
-    .hero
+    article.bio-pic
       img.profile(src="../../../../Senior Pic.jpg" alt="")
-      p.bio I'm Michael Lawinger, the designer and developer of Website Construction. My desire is through my love for God and Web Development, to create Personally Professional Websites that communicate the purpose of your work. I love Web because it's a perfect balance between creativity and logic! My goal as a Web Designer & Developer is to create an easily functional, clean design by focusing the content of the website on your essentials needs.
-  h2.sub-heading Personally Professional Websites
-  .box-wrap
-    .box.personal
-      h3 Personal
-      p Every website is designed by people. I strive to be personal and pleasant to work with. My love for God fuels my desire to connect with people and my passion for web drives me to build sites that are representative the message you want to share thorugh your site!
-    .box.professional
-      h3 Professional
-      p Websites are so essential to finding out inforamtion and reaching people with it. As my profession, I profess to use current methods to deliver professional websites that meet needs, while not compromising quality.
-  h2 Principles of Design
-  .box-wrap
-    .box.sub
-      h3.principles ★ |  Essential Content
+      p.bio I'm Michael Lawinger, the designer and developer of Sychael. Sychael is the personalized name of my wife Sylvia &amp; I combined. My desire is through my love for God and Web Development, to create Personally Professional Websites that communicate the purpose of your work. I love Web because it's a perfect balance between creativity and logic! My goal as a Designer & Developer is to create an easily functional, clean designs by focusing the content of the website on your essentials needs.
+      | *Amplifying their message through creating websites so their voice can reach their target
+  section.section-container#meet
+      h2 Personally Professional Websites
+      .box
+        h3.headerbox-red Personal
+        p Every website is designed by people. I strive to be personal and pleasant to work with. My love for God fuels my desire to connect with people and my passion for web drives me to build sites that represent your identity and message!
+      .box
+        h3.headerbox-red Professional
+        p Websites are essential to finding out inforamtion and reaching people with it. As my profession, I commit to delivering professional websites that meet needs, while not compromising quality.
+  section
+    h2 Principles of Design
+    .box-container
+      .box
+        h3.headerbox-red ★&nbsp;&nbsp;&nbsp; Essential Content
         ul
           li Refined Conent
           li Consise Wording
           li Relevant Media
-    .box.sub
-      h3.white.principles ☀︎ |  Clean Design
+      .box
+        h3.headerbox-red ☀︎&nbsp;&nbsp;&nbsp; Clean Design
         ul
           li Pleasingly Aesthestic
           li Modern Design
           li Personalized Theme
-    .box.sub
-      h3.white.principles ➥ | Simple Functionality
+      .box
+        h3.headerbox-red ➥&nbsp;&nbsp;&nbsp; Simple Functionality
         ul
           li Intuitive Interactions
           li Simple Usability
           li Friendly Accessiblity
+  
+  include ../components/action

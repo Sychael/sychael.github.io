@@ -95,17 +95,3 @@ figure {
     display: none;
   }
 }
-
-/// DIVS ///
-
-.redbox {
-  background-color: $wine-trans;
-  padding: $amount-medium $amount-none;
-  color: $white;
-  @include breakpoint($breakpoint-devices-medium-cell) {
-    padding: 16px $amount-none;
-  }
-  @include breakpoint($breakpoint-devices-tablet) {
-    padding: $amount-open $amount-none;
-  }
-}

@@ -13,18 +13,27 @@ block main
       a(href="tel:16307910269")
         img.img-icon-phone(src='img/icons/phone.svg' alt="call mobile phone number")
         a(href="tel:16307910269") 1 (630) 791-0269
+    br
+    .contact-info
+      a(href="mailto:sychael.michael@gmail.com")
+        img.img-icon-phone(src='img/icons/email.svg' alt="send email")
+        a(href="mailto:sychael.michael@gmail.com") sychael.michael@gmail.com
   form(method="post" action="mailto:sychael.michael@gmail.com" role="form")
     fieldset
       h4 #[span.number 1] Your Info
       .form-field
-        label(for="name") Name
+        label(for="name") Full Name
         input(type="text" name="name" id="name" pattern="[a-zA-Z  ]{2,}[ ]{1}[a-zA-Z]{2,}" title="Please Enter Your First and Last Name" required="required")
       .form-field
-        label(for="email") Email
+        label(for="email") Email Address
         input(type="email" name="email" id="email" pattern="[a-zA-Z0-9.-]{1,30}[@]{1}[a-z0-9]{1,15}[.]{1}[a-z]{2,6}" title="Please Enter Your Email Address" required="required")
       .form-field
         label(for="phone") Phone Number
         input(type="tel" name="phone" id="phone" pattern="[0-9( )-]{10,16}" min="10" max="13" title="Please Enter Your Phone Number" required="required")
+      .form-field
+        label(for="company") Company Name 
+          span *If Applicable
+        input(type="text" id="company" name="company")
     fieldset
       h4 #[span.number 2] Your Reason
       .form-field
@@ -32,11 +41,10 @@ block main
         select(name="reason" id="reason")
           optgroup(label="Professional")
             option(value="hire" id="option") Hire for Work
-            option(value="job") Inquiring for Job
           optgroup(label="Personal")
             option(value="general" id="general") General Message
             option(value="problem" id="problem") Problem with Site
       .form-field
         label(for="message") Message
-        textarea.scrollbar.style-3(name="message" id="message")
+        textarea.scrollbar.style-3(name="message" id="message" placeholder="Describe Your Project")
       button(type="submit") Send Message

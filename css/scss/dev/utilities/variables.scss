@@ -22,8 +22,11 @@
       $wine-darken: darken($wine, 3%);
       $wine-dark: darken($wine, 6%);
       $wine-darkest: darken($wine, 9%);
+      // DARK WINE : BORDERS
+      $wine-border: #3B102B;
       // WINE-OPACITY
       $wine-trans: rgba($wine, .9);
+
 
       /// WHITE
       $white-pure: lighten($white, 6%);

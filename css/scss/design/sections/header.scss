@@ -90,13 +90,18 @@ nav {
     &:hover {
       background: $wine;
     }
+    :focus {
+      background: $wine;
+      padding: $amount-large;
+      outline: none;
+    }
   }
   a {
     display: block;
     padding: $amount-large;
     font-size: 1.5em;
     color: $white;
-    &:hover {
+    &:hover, :focus {
       font-weight: 400;
       color: $white;
     }

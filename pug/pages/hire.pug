@@ -8,18 +8,18 @@ block description
 
 block main
   h1 Build a Sychael Site
-  p.center * Your information is only for further contact and project usage.
+  p * Your information is for further contact and project usage.
 
   form(method="post" action="mailto:michael@webconstruction.org")
 
     legend
-    label(for="name") Full Name
+    label(for="name" required="required") Full Name
     input(type="text" id="name" name="name")
 
-    label(for="email") Email Address
+    label(for="email" required) Email Address
     input(type="email" id="email" name="email")
 
-    label(for="phone") Phone Number
+    label(for="phone" required) Phone Number
     input(type="tel" id="phone" name="phone")
 
     legend

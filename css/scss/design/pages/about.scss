@@ -5,9 +5,24 @@ img.profile {
   border-radius: 100%;
   border: $wine-trans 2px solid;
   border-radius: 50%;
-  @include breakpoint($breakpoint-devices-tablet) {
+  text-align: center;
+  @include breakpoint() {
     float: left;
-    margin: $amount-none $amount-large;
-    text-align: left;
+    margin: $amount-small $amount-superlarge;
+    text-align: justify;
   }
+}
+
+article.bio-pic {
+  display: inline-block;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+p.bio {
+  text-align: center;
+  @include breakpoint() {
+    max-width: 900px;
+    text-align: left;
+  };
 }

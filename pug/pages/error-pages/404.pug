@@ -1,10 +1,12 @@
-include ../../components/head
+include ../../sections/head
 
 html
   body
-    #error-404-wrapper
-      h1 Page Doesn't Exist
-      p Sorry, the page you were searching does not exist.
-      p Please return to 
-        a(href='index.html') Home Page 
-        | or #[a(href="contact.html") report] the issue
+    #error-wrapper
+      h1.redbox Page Doesn't Exist
+      p Sorry, the page you searched for doesn't exist. It may be because:
+      ol
+        li hello
+      p Return 
+        a(href='index.html') Home 
+        | or #[a(href="contact.html") Report Issue.]

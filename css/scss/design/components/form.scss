@@ -1,6 +1,10 @@
 form {
-  width: 85%;
-  margin: 0 auto;
+  width: 90%;
+  margin: $amount-none auto $amount-none $amount-open;
+  @include breakpoint($breakpoint-devices-medium-cell) {
+    margin: 0 auto;
+    width: 80%;
+  }
   @include breakpoint() {
     width: 70%;
   }
@@ -27,15 +31,15 @@ input,
 textarea {
   background-color: $white;
   border: $transparent $amount-narrow solid;
-  padding: $amount-average $amount-large;
+  padding: $amount-average $amount-medium;
   margin: $amount-average auto;
   font-size: 1.05em;
-  width: 100%;
+  width: 85%;
   transition: transition();
   &:focus {
     border: $charcoal $amount-narrow solid;
     outline: none;
-    padding: $amount-average $amount-large;;
+    padding: $amount-average $amount-medium;
     margin: 9px auto;
     opacity: 1;
     &::selection {
@@ -56,7 +60,6 @@ input {
 }
 
 textarea {
-  width: 100%;
   height: 2.5em;
   &:focus {
     height: 5em;
@@ -84,6 +87,12 @@ button {
   &:hover {
     background-color: $wine;
     @include transform;
+  }
+  &:focus {
+    padding: 1em;
+    background-color: $wine;
+    @include transform;
+    outline: none;
   }
   &:active {
     background-color: $wine-darkest;

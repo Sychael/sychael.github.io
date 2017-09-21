@@ -1,45 +1,86 @@
 .box {
   display: block;
-  margin: $amount-average auto;
   background-color: $charcoal-light;
   border-radius: 9px;
   vertical-align: top;
   margin: 2em auto;
+  padding-bottom: $amount-medium;
   width: 80%;
-  opacity: .95;
-  transition: transition();
-  &:hover {
-    opacity: 1;
-  }
+  vertical-align: top;
   @include breakpoint() {
     display: inline-block;
-    width: 29%;
-    min-width: 22em;
+    width: 30%;
+    min-width: 23em;
     vertical-align: top;
     margin: 1.25em;
+    transition: transition();
+    &.hover {
+      opacity: .9;
+      &:hover {
+        opacity: 1;
+      }
+    }
   }
   img {
-    padding: $amount-median;
+    padding: $amount-average $amount-none $amount-none;
+    .box-img {
+      vertical-align: baseline;
+    }
   }
-  h4 {
+  h3 {
+    text-transform: capitalize;
     color: $white;
-    font-size: 1.1em;
-    font-weight: 500;
-    margin: -6px 0 0;
+    font-size: 1.4em;
+    font-weight: 600;
   }
   ul {
     margin: 9px 0;
   }
   li {
     color: $white;
-    font-size: .95em;
+    font-size: 1em;
     font-weight: 300;
     text-align: left;
     margin-left: 19px;
+    @include breakpoint($breakpoint-devices-large-cell) {
+      font-size: 1.25em;
+    }
+    @include breakpoint() {
+      font-size: 1.4em;
+    }
   }
   p {
     margin: 0 13px 9px 19px;
     color: $white;
     text-align: left;
+  }
+}
+
+.redbox {
+  background-color: $wine-trans;
+  margin: $amount-average $amount-small;
+  padding: $amount-medium $amount-medium;
+  color: $white;
+  border: 3px $wine-border solid;
+  &::selection {
+    background-color: $charcoal;
+  }
+  @include breakpoint($breakpoint-devices-medium-cell) {
+    padding: $amount-large $amount-medium;
+  }
+  @include breakpoint($breakpoint-devices-tablet) {
+    padding: $amount-open $amount-small;
+  }
+  @include breakpoint() {
+    padding: $amount-open $amount-large;
+  }
+}
+
+.headerbox-red {
+  padding: $amount-large;
+  background-color: $wine;
+  margin: $amount-none $amount-none $amount-large $amount-none;
+  &::selection {
+    background-color: $charcoal;
   }
 }

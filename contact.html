@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <meta name="description" content="Contact Website Construction if you have any inquiries, questions or concerns. If you are looking to hire Website Consturction leave a message and go to the Hire page.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="favicon.ico">
-    <link rel="icon" href="img/logo/favicon.png">
+    <link rel="apple-touch-icon" href="img/logo/favicon/favicon.png">
+    <link rel="icon" type="image/png" href="img/logo/favicon/favicon.png">
+    <meta name="msapplication-TileColor" content="#993D55f">
+    <meta name="msapplication-TileImage" content="img/logo/favicon/favicon.png">
+    <meta name="theme-color" content="#993D55f">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,400i,500,600,700,700i,900">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
@@ -22,31 +25,38 @@
           </li>
           <li><a href="../about.html">About</a>
           </li>
+          <li><a href="../services.html">Services</a>
+          </li>
           <li><a href="../contact.html">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
     <main role="main">
-      <div class="main-wrap">
+      <div class="main-container">
         <section>
           <h1 class="redbox">Contact Me</h1>
-          <div class="contact-info"><a href="tel:16307910269"><img class="img-icon-phone" src="img/icons/phone.svg" alt="call mobile phone number"><a href="tel:16307910269">1 (630) 791-0269</a></a></div>
+          <div class="contact-info"><a href="tel:16307910269"><img class="img-icon-phone" src="img/icons/phone.svg" alt="call mobile phone number"><a href="tel:16307910269">1 (630) 791-0269</a></a></div><br>
+          <div class="contact-info"><a href="mailto:sychael.michael@gmail.com"><img class="img-icon-phone" src="img/icons/email.svg" alt="send email"><a href="mailto:sychael.michael@gmail.com">sychael.michael@gmail.com</a></a></div>
         </section>
         <form method="post" action="mailto:sychael.michael@gmail.com" role="form">
           <fieldset>
             <h4><span class="number">1</span> Your Info</h4>
             <div class="form-field">
-              <label for="name">Name</label>
+              <label for="name">Full Name</label>
               <input type="text" name="name" id="name" pattern="[a-zA-Z  ]{2,}[ ]{1}[a-zA-Z]{2,}" title="Please Enter Your First and Last Name" required="required">
             </div>
             <div class="form-field">
-              <label for="email">Email</label>
+              <label for="email">Email Address</label>
               <input type="email" name="email" id="email" pattern="[a-zA-Z0-9.-]{1,30}[@]{1}[a-z0-9]{1,15}[.]{1}[a-z]{2,6}" title="Please Enter Your Email Address" required="required">
             </div>
             <div class="form-field">
               <label for="phone">Phone Number</label>
               <input type="tel" name="phone" id="phone" pattern="[0-9( )-]{10,16}" min="10" max="13" title="Please Enter Your Phone Number" required="required">
+            </div>
+            <div class="form-field">
+              <label for="company">Company Name <span>*If Applicable</span></label>
+              <input type="text" id="company" name="company">
             </div>
           </fieldset>
           <fieldset>
@@ -56,7 +66,6 @@
               <select name="reason" id="reason">
                 <optgroup label="Professional">
                   <option value="hire" id="option">Hire for Work</option>
-                  <option value="job">Inquiring for Job</option>
                 </optgroup>
                 <optgroup label="Personal">
                   <option value="general" id="general">General Message</option>
@@ -66,7 +75,7 @@
             </div>
             <div class="form-field">
               <label for="message">Message</label>
-              <textarea class="scrollbar style-3" name="message" id="message"></textarea>
+              <textarea class="scrollbar style-3" name="message" id="message" placeholder="Describe Your Project"></textarea>
             </div>
             <button type="submit">Send Message</button>
           </fieldset>
@@ -79,16 +88,16 @@
         <div class="copyright">
           <p>&copy; Sychael Site | <span class="dateYear"></span></p>
         </div>
-        <div class="footer-nav"><a href="#">Terms</a><a href="contact.html">Contact</a></div>
+        <div class="footer-nav"><a href="#">Terms &amp; Conditions</a></div>
       </div>
       <div class="icons-social-media">
-            <div class="label-container"><a href="https://plus.google.com/102980324283872428489"><span class="label">Google+</span><img class="icon" src="img/icons/social-media/google-plus.svg" alt="Google Plus Icon"></a></div>
+            <div class="label-container"><a href="https://github.com/Sychael"><span class="label">GitHub</span><img class="icon" src="img/icons/social-media/github.svg" alt="GitHub Icon"></a></div>
+            <div class="label-container"><a href="https://codepen.io/Sychael/"><span class="label">Codepen</span><img class="icon" src="img/icons/social-media/codepen.svg" alt="Codepen Icon"></a></div>
             <div class="label-container"><a href="https://www.facebook.com/sychaelsites"><span class="label">Facebook</span><img class="icon" src="img/icons/social-media/facebook.svg" alt="Facebook Icon"></a></div>
             <div class="label-container"><a href="https://twitter.com/sychaellawinger"><span class="label">Twitter</span><img class="icon" src="img/icons/social-media/twitter.svg" alt="Twitter Icon"></a></div>
             <div class="label-container"><a href="https://www.linkedin.com/in/michael-lawinger-83112a1a"><span class="label">LinkedIn</span><img class="icon" src="img/icons/social-media/linkedin.svg" alt="LinkedIn Icon"></a></div>
             <div class="label-container"><a href="https://vimeo.com/user19860207"><span class="label">Vimeo</span><img class="icon" src="img/icons/social-media/vimeo.svg" alt="Vimeo Icon"></a></div>
-            <div class="label-container"><a href="https://github.com/Sychael"><span class="label">GitHub</span><img class="icon" src="img/icons/social-media/github.svg" alt="GitHub Icon"></a></div>
-            <div class="label-container"><a href="https://codepen.io/Sychael/"><span class="label">Codepen</span><img class="icon" src="img/icons/social-media/codepen.svg" alt="Codepen Icon"></a></div>
+            <div class="label-container"><a href="https://plus.google.com/102980324283872428489"><span class="label">Google+</span><img class="icon" src="img/icons/social-media/google-plus.svg" alt="Google Plus Icon"></a></div>
       </div><a class="mobile" href="#page-top">Back To Top</a>
     </footer>
   </body>

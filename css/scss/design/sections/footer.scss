@@ -28,9 +28,13 @@ footer {
     padding: $amount-average $amount-small $amount-none;
     transition: transition();
     &:hover {
-      font-weight: 400;
       color: $wine-light;
       @include transform;
+    }
+    &:focus {
+      color: $wine-light;
+      @include transform;
+      outline: none;
     }
     @include breakpoint() {
       font-size: 1.2rem;
@@ -49,6 +53,10 @@ footer {
     transition: transition();
     @include breakpoint() {
       width: 3em;
+    }
+    &:focus {
+      @include transform;
+      outline: none;
     }
   }
   :hover {

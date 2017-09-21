@@ -21,6 +21,12 @@
 		"oAP": "\/405.html",
 		"oF": 0
 		},
+	"\/500.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/500.html",
+		"oF": 0
+		},
 	"\/about.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -39,10 +45,10 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/scss\/design\/components\/action.css",
-		"oF": 0,
+		"ma": 1,
+		"oA": 2,
+		"oAP": "\/css\/scss\/design\/components\/action.scss",
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -52,7 +58,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/scss\/design\/components\/box.css",
 		"oF": 0,
@@ -65,7 +71,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/scss\/design\/components\/form.css",
 		"oF": 0,
@@ -78,7 +84,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/scss\/design\/components\/hero.css",
 		"oF": 1,
@@ -91,7 +97,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/scss\/design\/components\/label.css",
 		"oF": 0,
@@ -104,7 +110,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/scss\/design\/components\/projects-work.css",
 		"oF": 0,
@@ -112,12 +118,12 @@
 		"uL": 1
 		},
 	"\/css\/scss\/design\/essentials.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/scss\/design\/essentials.css",
 		"oF": 0,
@@ -125,12 +131,12 @@
 		"uL": 1
 		},
 	"\/css\/scss\/design\/layout.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/scss\/design\/layout.css",
 		"oF": 0,
@@ -143,7 +149,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/scss\/design\/pages\/404.css",
 		"oF": 0,
@@ -156,7 +162,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/scss\/design\/pages\/about.css",
 		"oF": 0,
@@ -169,7 +175,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/scss\/design\/pages\/contact.css",
 		"oF": 0,
@@ -182,7 +188,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/scss\/design\/pages\/index.css",
 		"oF": 0,
@@ -195,7 +201,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/scss\/design\/pages\/work.css",
 		"oF": 0,
@@ -203,38 +209,38 @@
 		"uL": 1
 		},
 	"\/css\/scss\/design\/sections\/footer.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/scss\/design\/sections\/footer.css",
-		"oF": 0,
+		"ma": 1,
+		"oA": 2,
+		"oAP": "\/css\/scss\/design\/sections\/footer.scss",
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
 	"\/css\/scss\/design\/sections\/header.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/scss\/design\/sections\/header.css",
-		"oF": 0,
+		"ma": 1,
+		"oA": 2,
+		"oAP": "\/css\/scss\/design\/sections\/header.scss",
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
 	"\/css\/scss\/design\/sections\/main.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/scss\/design\/sections\/main.css",
 		"oF": 0,
@@ -242,12 +248,12 @@
 		"uL": 1
 		},
 	"\/css\/scss\/design\/theme.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/scss\/design\/theme.css",
 		"oF": 0,
@@ -260,7 +266,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "\/css\/style.css",
 		"oF": 2,
@@ -273,7 +279,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/scss\/dev\/utilities\/functions.css",
 		"oF": 0,
@@ -286,7 +292,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/scss\/dev\/utilities\/mixins.css",
 		"oF": 0,
@@ -299,7 +305,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/scss\/dev\/utilities\/variables.css",
 		"oF": 0,
@@ -322,20 +328,15 @@
 		"oAP": "\/css\/style.css.map",
 		"oF": 0
 		},
-	"\/favicon.ico": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/favicon.ico",
-		"oF": 0
-		},
-	"\/hero.jpg": {
-		"ft": 16384,
-		"iS": 97728,
+	"\/favicon.png": {
+		"ft": 32768,
+		"iS": 74860,
 		"oA": 0,
-		"oAP": "\/hero.jpg",
+		"oAP": "\/favicon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/hire.html": {
@@ -343,6 +344,26 @@
 		"oA": 2,
 		"oAP": "\/hire.html",
 		"oF": 0
+		},
+	"\/img\/icons\/email.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/icons\/email.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/icons\/empty-email.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/icons\/empty-email.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/img\/icons\/phone.svg": {
 		"ft": 2097152,
@@ -354,6 +375,12 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/icons\/social-media\/codepen.idraw": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/icons\/social-media\/codepen.idraw",
+		"oF": 0
+		},
 	"\/img\/icons\/social-media\/codepen.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -363,6 +390,12 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/icons\/social-media\/facebook.idraw": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/icons\/social-media\/facebook.idraw",
+		"oF": 0
 		},
 	"\/img\/icons\/social-media\/facebook.svg": {
 		"ft": 2097152,
@@ -374,6 +407,12 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/icons\/social-media\/github.idraw": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/icons\/social-media\/github.idraw",
+		"oF": 0
+		},
 	"\/img\/icons\/social-media\/github.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -383,6 +422,12 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/icons\/social-media\/google-plus.idraw": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/icons\/social-media\/google-plus.idraw",
+		"oF": 0
 		},
 	"\/img\/icons\/social-media\/google-plus.svg": {
 		"ft": 2097152,
@@ -404,6 +449,12 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/icons\/social-media\/linkedin.idraw": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/icons\/social-media\/linkedin.idraw",
+		"oF": 0
+		},
 	"\/img\/icons\/social-media\/linkedin.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -413,6 +464,12 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/icons\/social-media\/twitter.idraw": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/icons\/social-media\/twitter.idraw",
+		"oF": 0
 		},
 	"\/img\/icons\/social-media\/twitter.svg": {
 		"ft": 2097152,
@@ -424,6 +481,12 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/icons\/social-media\/vimeo.idraw": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/icons\/social-media\/vimeo.idraw",
+		"oF": 0
+		},
 	"\/img\/icons\/social-media\/vimeo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -434,22 +497,32 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/logo\/favicon.png": {
+	"\/img\/logo\/favicon\/favicon.png": {
 		"ft": 32768,
-		"iS": 38647,
+		"iS": 74860,
 		"oA": 0,
-		"oAP": "\/img\/logo\/favicon.png",
+		"oAP": "\/img\/logo\/favicon\/favicon.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/logo\/logo.svg": {
+	"\/img\/logo\/formIncorrectField.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/img\/logo\/formIncorrectField-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/img\/logo\/person-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/img\/logo\/logo.svg",
+		"oAP": "\/img\/logo\/person-logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -505,26 +578,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/photos\/personal.jpg": {
-		"ft": 16384,
-		"iS": 499981,
-		"oA": 0,
-		"oAP": "\/img\/photos\/personal.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/professional.jpg": {
-		"ft": 16384,
-		"iS": 442966,
-		"oA": 0,
-		"oAP": "\/img\/photos\/professional.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -561,23 +614,13 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/apps\/googleAnalytics-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/apps\/googleAnalytics-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/js\/apps\/googleAnalytics.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/apps\/googleAnalytics-min.js",
-		"oF": 0,
+		"oA": 2,
+		"oAP": "\/js\/apps\/googleAnalytics.js",
+		"oF": 3,
 		"sC": 1,
 		"tS": 0
 		},
@@ -621,6 +664,16 @@
 		"oS": 0,
 		"sC": 1
 		},
+	"\/js\/navDropdown.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/navDropdown-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/script.js": {
 		"ft": 64,
 		"ma": 0,
@@ -651,6 +704,22 @@
 		"oF": 1,
 		"oS": 0
 		},
+	"\/pug\/components\/favicon.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/pug\/components\/favicon.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/pug\/components\/links.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/pug\/components\/links.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/pug\/components\/nav.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -659,19 +728,27 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/pug\/components\/terms-conditions.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/pug\/components\/terms-conditions.html",
+		"oF": 1,
+		"oS": 0
+		},
+	"\/pug\/components\/tooltips.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/pug\/components\/tooltips.html",
+		"oF": 1,
+		"oS": 0
+		},
 	"\/pug\/layout.pug": {
 		"cOD": 1,
 		"ft": 512,
 		"oA": 2,
 		"oAP": "\/pug\/layout.pug",
-		"oF": 1,
-		"oS": 0
-		},
-	"\/pug\/mixins.pug": {
-		"cOD": 1,
-		"ft": 512,
-		"oA": 2,
-		"oAP": "\/pug\/mixins.pug",
 		"oF": 1,
 		"oS": 0
 		},
@@ -704,6 +781,14 @@
 		"ft": 512,
 		"oA": 0,
 		"oAP": "\/405.html",
+		"oF": 2,
+		"oS": 0
+		},
+	"\/pug\/pages\/error-pages\/500.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/500.html",
 		"oF": 2,
 		"oS": 0
 		},
@@ -804,16 +889,6 @@
 		"oA": 2,
 		"oAP": "\/services.html",
 		"oF": 0
-		},
-	"\/Sychael Sites.jpg": {
-		"ft": 16384,
-		"iS": 171929,
-		"oA": 0,
-		"oAP": "\/Sychael Sites.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		}
 	},
 "hooks": [

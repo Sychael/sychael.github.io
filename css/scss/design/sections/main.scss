@@ -3,10 +3,12 @@ main {
   min-height: 65vh;
 }
 
-.main-wrap {
-  padding: $amount-large $amount-large;
-}
+
 
 section {
   padding: $amount-large $amount-none ;
+}
+
+.section-container {
+  padding: $amount-large $amount-large;
 }

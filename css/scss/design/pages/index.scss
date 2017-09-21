@@ -1,15 +1,6 @@
 .box img {
   position: relative;
-  width: 9em;
-  margin: -6px auto;
-  @media(min-width: 375px) {
-    width: 11em;
-    margin: 14px auto;
-  }
-  @media(min-width: 768px) {
-    width: 11em;
-    margin: 3px auto;
-  }
+  width: 12em;
 }
 
 h2.index {
