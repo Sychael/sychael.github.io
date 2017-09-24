@@ -1,8 +1,6 @@
 /// CALL TO ACTION ///
 
 .action-section {
-  margin: 0;
+  margin: $amount-open $amount-none $amount-large;
   text-align: center;
-  background-color: $charcoal-light;
-  padding: $amount-enormous;
 }

@@ -95,3 +95,10 @@ figure {
     display: none;
   }
 }
+
+.mobile-hide {
+  display: none;
+  @include breakpoint() {
+    display: inline-block;
+  }
+}

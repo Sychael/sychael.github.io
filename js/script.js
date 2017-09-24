@@ -10,5 +10,4 @@ document.addEventListener("DOMContentLoaded", function() {
   loadScript('/js/apps/navDropdown.js');
   loadScript('/js/apps/footerDate.js');
   loadScript('/js/apps/formLogin.js');
-  loadScript('js/apps/incorrectFieldElement.js');
 });

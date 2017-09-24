@@ -153,6 +153,12 @@ figure figcaption {
   .mobile {
     display: none; } }
 
+.mobile-hide {
+  display: none; }
+  @media (min-width: 900px) {
+    .mobile-hide {
+      display: inline-block; } }
+
 .top-bar {
   background: -webkit-gradient(linear, left bottom, left top, from(#a73d58), to(#863146));
   background: linear-gradient(to top, #a73d58, #863146);
@@ -214,7 +220,7 @@ img.hamburger-menu {
       display: none; } }
 
 nav .reveal {
-  top: -280px;
+  top: -350px;
   padding: 0;
   -webkit-transition: all .3s ease;
   transition: all .3s ease; }
@@ -256,7 +262,6 @@ nav a {
   font-size: 1.5em;
   color: #F6F6F6; }
   nav a:hover, nav a :focus {
-    font-weight: 400;
     color: #F6F6F6; }
   @media (min-width: 900px) {
     nav a {
@@ -281,6 +286,9 @@ header:after {
 main {
   background-color: #eeeeee;
   min-height: 65vh; }
+
+.main-container {
+  padding: 9px 0; }
 
 section {
   padding: 18px 0; }
@@ -356,10 +364,8 @@ footer {
   transition: all 4s ease; }
 
 .action-section {
-  margin: 0;
-  text-align: center;
-  background-color: #2e2e2e;
-  padding: 45px; }
+  margin: 24px 0 18px;
+  text-align: center; }
 
 .portfolio figcaption {
   padding: 24px; }
@@ -392,11 +398,17 @@ h4 {
     font-weight: 600;
     color: #F6F6F6; }
 
+.form-field {
+  margin: 6px 0; }
+
 label {
   display: block;
   font-size: 1.1em;
   font-weight: 600;
   margin: 0 auto; }
+  label span {
+    font-weight: 300;
+    font-size: 1rem; }
 
 input,
 textarea {
@@ -509,6 +521,13 @@ input[type="submit"] {
         opacity: .9; }
         .box.hover:hover {
           opacity: 1; } }
+  .box .white {
+    color: #F6F6F6;
+    font-weight: 500;
+    -webkit-transition: all 0.09s ease;
+    transition: all 0.09s ease; }
+    .box .white:hover {
+      color: #c86981; }
   .box img {
     padding: 9px 0 0; }
     .box img .box-img {
@@ -543,19 +562,13 @@ input[type="submit"] {
   padding: 12px 12px;
   color: #F6F6F6;
   border: 3px #3B102B solid; }
-  .redbox::-moz-selection {
+  .redbox::-moz-selection, .redbox span::-moz-selection {
     background-color: #262626; }
-  .redbox::selection {
+  .redbox::selection, .redbox span::selection {
     background-color: #262626; }
-  @media (min-width: 375px) {
-    .redbox {
-      padding: 18px 12px; } }
-  @media (min-width: 768px) {
-    .redbox {
-      padding: 24px 6px; } }
   @media (min-width: 900px) {
     .redbox {
-      padding: 24px 18px; } }
+      padding: 24px 6px; } }
 
 .headerbox-red {
   padding: 18px;
@@ -611,16 +624,19 @@ img.box-port {
 img.profile {
   display: block;
   margin: 9px auto;
-  width: 7em;
+  width: 8em;
   border-radius: 100%;
   border: rgba(156, 57, 82, 0.9) 2px solid;
   border-radius: 50%;
-  text-align: center; }
+  text-align: center;
+  -webkit-transition: all 0.09s ease;
+  transition: all 0.09s ease; }
   @media (min-width: 900px) {
     img.profile {
       float: left;
       margin: 6px 33px;
-      text-align: justify; } }
+      text-align: justify;
+      width: 10em; } }
 
 article.bio-pic {
   display: inline-block;
@@ -631,7 +647,7 @@ p.bio {
   text-align: center; }
   @media (min-width: 900px) {
     p.bio {
-      max-width: 900px;
+      max-width: 930px;
       text-align: left; } }
 
 #name {

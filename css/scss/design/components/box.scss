@@ -21,6 +21,14 @@
       }
     }
   }
+  .white {
+    color: $white;
+    font-weight: 500;
+    transition: transition();
+    &:hover {
+      color: $wine-brightest;
+    }
+  }
   img {
     padding: $amount-average $amount-none $amount-none;
     .box-img {
@@ -62,17 +70,11 @@
   padding: $amount-medium $amount-medium;
   color: $white;
   border: 3px $wine-border solid;
-  &::selection {
+  &::selection, span::selection {
     background-color: $charcoal;
   }
-  @include breakpoint($breakpoint-devices-medium-cell) {
-    padding: $amount-large $amount-medium;
-  }
-  @include breakpoint($breakpoint-devices-tablet) {
-    padding: $amount-open $amount-small;
-  }
   @include breakpoint() {
-    padding: $amount-open $amount-large;
+    padding: $amount-open $amount-small;
   }
 }
 

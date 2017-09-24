@@ -1,15 +1,17 @@
 img.profile {
   display: block;
   margin: $amount-average auto;
-  width: 7em;
+  width: 8em;
   border-radius: 100%;
   border: $wine-trans 2px solid;
   border-radius: 50%;
   text-align: center;
+  transition: transition();
   @include breakpoint() {
     float: left;
     margin: $amount-small $amount-superlarge;
     text-align: justify;
+    width: 10em;
   }
 }
 
@@ -22,7 +24,7 @@ article.bio-pic {
 p.bio {
   text-align: center;
   @include breakpoint() {
-    max-width: 900px;
+    max-width: 930px;
     text-align: left;
   };
 }

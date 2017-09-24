@@ -1,1 +1,0 @@
-(function(){var e,d,l,t;e=document.querySelector("div.form-field"),d=document.querySelector("input:invalid"),l=document.createElement("label"),t=document.createTextNode("Please Fix This Field"),l.appendChild(t),d&&e.appendChild(l)}).call(this);

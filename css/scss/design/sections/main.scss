@@ -3,10 +3,12 @@ main {
   min-height: 65vh;
 }
 
-
+.main-container {
+  padding: $amount-average $amount-none;
+}
 
 section {
-  padding: $amount-large $amount-none ;
+  padding: $amount-large $amount-none;
 }
 
 .section-container {
