@@ -5,6 +5,7 @@
 @import "utilities/variables";
 @import "utilities/functions";
 @import "utilities/mixins";
+@import "utilities/animations";
 
 ////// DESIGN //////
 
@@ -19,6 +20,7 @@
 @import "../design/sections/footer";
 
 /// COMPONENTS ///
+@import "../design/components/loader";
 @import "../design/components/action";
 @import "../design/components/hero";
 @import "../design/components/projects-work";

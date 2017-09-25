@@ -6,6 +6,7 @@ function loadScript(url) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
+  loadScript('js/apps/loader.js')
   loadScript('js/apps/googleAnalytics.js')
   loadScript('/js/apps/navDropdown.js');
   loadScript('/js/apps/footerDate.js');

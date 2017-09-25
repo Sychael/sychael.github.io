@@ -1,3 +1,51 @@
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translate(-350px, 0px);
+            transform: translate(-350px, 0px); }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px); } }
+
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translate(-350px, 0px);
+            transform: translate(-350px, 0px); }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px); } }
+
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translate(600px, 0px);
+            transform: translate(600px, 0px); }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px); } }
+
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translate(600px, 0px);
+            transform: translate(600px, 0px); }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px); } }
+
+@-webkit-keyframes fade-in {
+  from {
+    margin-top: 9px;
+    opacity: 0; }
+  to {
+    margin-top: 0px;
+    opacity: 1; } }
+
+@keyframes fade-in {
+  from {
+    margin-top: 9px;
+    opacity: 0; }
+  to {
+    margin-top: 0px;
+    opacity: 1; } }
+
 html {
   font-size: 100%;
   margin: 0;
@@ -193,7 +241,9 @@ header {
   height: 4em;
   margin: 12px 0;
   -webkit-transition: all 0.09s ease;
-  transition: all 0.09s ease; }
+  transition: all 0.09s ease;
+  -webkit-animation: slide-in-right 1s ease;
+          animation: slide-in-right 1s ease; }
   @media (min-width: 900px) {
     .logo-container {
       height: 5em; } }
@@ -213,7 +263,9 @@ img.hamburger-menu {
   width: 5em;
   cursor: pointer;
   -webkit-transition: all 0.09s ease;
-  transition: all 0.09s ease; }
+  transition: all 0.09s ease;
+  -webkit-animation: slide-in-left 1s ease;
+          animation: slide-in-left 1s ease; }
   @media (min-width: 900px) {
     img.hamburger-menu {
       margin-right: -55px;
@@ -234,14 +286,16 @@ nav .reveal {
     font-weight: 500; }
 
 nav ul {
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
   position: absolute;
   top: 4.5em;
   left: 0;
   background: rgba(23, 23, 23, 0.95);
   padding: 0;
-  width: 100%; }
+  width: 100%;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-animation: slide-in-left 1s ease;
+          animation: slide-in-left 1s ease; }
   @media (min-width: 900px) {
     nav ul {
       background: none;
@@ -285,7 +339,9 @@ header:after {
 
 main {
   background-color: #eeeeee;
-  min-height: 65vh; }
+  min-height: 65vh;
+  -webkit-animation: fade-in 1s;
+          animation: fade-in 1s; }
 
 .main-container {
   padding: 9px 0; }
@@ -297,6 +353,7 @@ section {
   padding: 18px 18px; }
 
 footer {
+  position: static;
   background-color: #F6F6F6;
   text-align: center;
   padding: 21px 0; }
@@ -362,6 +419,44 @@ footer {
 #page-top {
   -webkit-transition: all 4s ease;
   transition: all 4s ease; }
+
+.loader-container {
+  background-color: #F6F6F6;
+  position: absolute;
+  height: calc(100% - 113px);
+  width: 100%;
+  z-index: -6; }
+
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 2em solid #262626;
+  outline: 9px #863146;
+  border-radius: 100%;
+  border-top: 2em solid #9C3952;
+  -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite; }
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
 
 .action-section {
   margin: 24px 0 18px;

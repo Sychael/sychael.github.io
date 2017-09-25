@@ -31,6 +31,7 @@ header {
   height: 4em;
   margin: $amount-medium 0;
   transition: transition();
+  animation: slide-in-right 1s ease;
   @include breakpoint() {
     height: 5em;
   }
@@ -53,6 +54,7 @@ img.hamburger-menu {
   width: 5em;
   cursor: pointer;
   transition: transition();
+  animation: slide-in-left 1s ease;
   @include breakpoint {
     margin-right: -55px;
     display: none;
@@ -73,13 +75,14 @@ nav {
   }
   }
   ul {
-    transition: all .3s ease;
     position: absolute;
     top: 4.5em;
     left: 0;
     background: $charcoal-opaq;
     padding: 0;
     width: 100%;
+    transition: all .3s ease;
+    animation: slide-in-left 1s ease;
     @include breakpoint() {
       background: none;
       position: initial;
