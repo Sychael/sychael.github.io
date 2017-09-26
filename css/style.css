@@ -432,15 +432,21 @@ footer {
   left: 50%;
   top: 45%;
   z-index: 1;
-  width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 125px;
   margin: -75px 0 0 -75px;
-  border: 2em solid #262626;
+  border: 1em solid #262626;
   outline: 9px #863146;
   border-radius: 100%;
-  border-top: 2em solid #9C3952;
+  border-top: 1em solid #9C3952;
   -webkit-animation: spin 2s linear infinite;
           animation: spin 2s linear infinite; }
+  @media (min-width: 900px) {
+    .loader {
+      width: 125px;
+      height: 125px;
+      border: 1.5em solid #262626;
+      border-top: 1.5em solid #9C3952; } }
 
 @-webkit-keyframes spin {
   0% {
@@ -692,6 +698,44 @@ input[type="submit"] {
 @media (min-width: 900px) {
   .label-container:hover .label {
     display: block; } }
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #262626;
+  background-color: rgba(0, 0, 0, 0.7); }
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 13.5% auto;
+  padding: 33px;
+  border: 3px solid #863146;
+  width: 70%; }
+  .modal-content p {
+    width: 100%; }
+
+/* The Close Button */
+.close {
+  position: relative;
+  top: -25px;
+  right: -10px;
+  float: right;
+  color: rgba(23, 23, 23, 0.95);
+  font-size: 3em;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: #262626;
+  text-decoration: none;
+  cursor: pointer; }
 
 .box img {
   position: relative;

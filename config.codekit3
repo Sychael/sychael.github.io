@@ -117,6 +117,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/design\/components\/modal.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/css\/scss\/design\/components\/modal.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/design\/components\/projects-work.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -364,6 +377,12 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/form-submitted.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/form-submitted.html",
+		"oF": 0
 		},
 	"\/hire.html": {
 		"ft": 8192,
@@ -640,6 +659,26 @@
 		"sC": 1,
 		"tS": 1
 		},
+	"\/js\/apps\/modal-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/apps\/modal-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/apps\/modal.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/apps\/modal-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/apps\/navDropdown.js": {
 		"ft": 64,
 		"ma": 0,
@@ -705,8 +744,8 @@
 	"\/pug\/components\/action.pug": {
 		"cOD": 1,
 		"ft": 512,
-		"oA": 2,
-		"oAP": "\/pug\/components\/action.pug",
+		"oA": 1,
+		"oAP": "\/pug\/components\/action.html",
 		"oF": 1,
 		"oS": 0
 		},
@@ -718,12 +757,28 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/pug\/components\/form-submitted.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/form-submitted.html",
+		"oF": 3,
+		"oS": 0
+		},
 	"\/pug\/components\/links.pug": {
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/pug\/components\/links.html",
 		"oF": 0,
+		"oS": 0
+		},
+	"\/pug\/components\/modal.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/pug\/components\/modal.html",
+		"oF": 1,
 		"oS": 0
 		},
 	"\/pug\/components\/nav.pug": {
@@ -909,7 +964,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -2295,7 +2350,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:5757",
+	"externalServerAddress": "http:\/\/localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

@@ -11,14 +11,20 @@
   left: 50%;
   top: 45%;
   z-index: 1;
-  width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 125px;
   margin: -75px 0 0 -75px;
-  border: 2em solid $charcoal;
+  border: 1em solid $charcoal;
   outline: 9px $wine-dark;
   border-radius: 100%;
-  border-top: 2em solid $wine;
+  border-top: 1em solid $wine;
   animation: spin 2s linear infinite;
+  @include breakpoint() {
+    width: 125px;
+    height: 125px;
+    border: 1.5em solid $charcoal;
+    border-top: 1.5em solid $wine;
+  }
 }
 
 @keyframes spin {

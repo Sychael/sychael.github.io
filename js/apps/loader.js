@@ -10,7 +10,7 @@ footer.style.display = "none";
 
 
 function myFunction() {
-    setTimeout(showPage, 1000);
+    setTimeout(showPage, 500);
 }
 
 function showPage() {
