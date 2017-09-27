@@ -6,37 +6,43 @@
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto;
+    overflow: scroll;
     background-color: $charcoal;
     background-color: rgba(0,0,0,0.7);
+    transition: transition();
 }
 
-/* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 13.5% auto;
+  margin: 125px auto;
   padding: $amount-superlarge;
   border: $amount-narrow solid $wine-dark;
   width: 70%;
+  height: 70%;
   p {
     width: 100%;
+    text-align: left;
   }
 }
 
 /* The Close Button */
 .close {
   position: relative;
-  top: -25px;
-  right: -10px;
+  top: -23px;
+  right: -20px;
   float: right;
-  color: $charcoal-opaq;
-  font-size: 3em;
+  color: $white;
+  background-color: $charcoal-lightest;
+  border-radius: 50%;
+  padding: 0px 15px;
+  font-size: 2.5em;
   font-weight: bold;
+  transition: transition();
 }
 
 .close:hover,
 .close:focus {
-    color: $charcoal;
-    text-decoration: none;
+  color: $white;
+  background-color: $charcoal;
     cursor: pointer;
 }

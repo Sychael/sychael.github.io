@@ -40,7 +40,8 @@
       $white-transp: rgba($white, .8);
 
       /// CHARCOAL
-      $charcoal-lightest: lighten($charcoal, 15%);
+      $charcoal-lightest: lighten($charcoal, 25%);
+      $charcoal-bright: lighten($charcoal, 15%);
       $charcoal-lighter: lighten($charcoal, 9%);
       $charcoal-light: lighten($charcoal, 3%);
       $charcoal-original: $charcoal;

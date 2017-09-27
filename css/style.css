@@ -62,9 +62,6 @@ h1, h2, h3, h4 {
   -webkit-transition: all 0.09s ease;
   transition: all 0.09s ease; }
 
-p {
-  white-space: pre-wrap; }
-
 a {
   text-decoration: none;
   color: #262626; }
@@ -74,7 +71,13 @@ select:hover,
 button {
   cursor: pointer; }
 
-a, span, figcaption, button, input, option {
+a, span, figcaption, button, input, option, ::-webkit-input-placeholder {
+  font-family: "Montserrat", sans-serif; }
+
+a, span, figcaption, button, input, option, :-ms-input-placeholder {
+  font-family: "Montserrat", sans-serif; }
+
+a, span, figcaption, button, input, option, ::placeholder {
   font-family: "Montserrat", sans-serif; }
 
 ul {
@@ -175,9 +178,6 @@ h3 {
   font-weight: 700;
   text-align: center; }
 
-h4 {
-  margin: 0; }
-
 a {
   -webkit-transition: all 0.09s ease;
   transition: all 0.09s ease;
@@ -224,7 +224,7 @@ header {
   top: 3px;
   position: -webkit-sticky;
   position: sticky;
-  padding: 0 9px;
+  padding: 12px 9px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -233,39 +233,34 @@ header {
           align-items: center;
   -webkit-transition: all 0.09s ease;
   transition: all 0.09s ease; }
-  @media (min-width: 375px) {
+  @media (min-width: 900px) {
     header {
-      padding: 0 18px; } }
+      padding: 2px 9px; } }
 
 .logo-container {
   height: 4em;
-  margin: 12px 0;
   -webkit-transition: all 0.09s ease;
   transition: all 0.09s ease;
-  -webkit-animation: slide-in-right 1s ease;
-          animation: slide-in-right 1s ease; }
-  @media (min-width: 900px) {
-    .logo-container {
-      height: 5em; } }
+  -webkit-animation: slide-in-right 0.9s ease;
+          animation: slide-in-right 0.9s ease; }
 
 img.logo {
-  position: absolute;
   height: 4em;
-  clip: rect(0, 4.1em, 5em, 0);
-  -webkit-transition: all 0.09s ease;
-  transition: all 0.09s ease; }
+  position: absolute;
+  clip: rect(0, 4.1em, 4em, 0);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
   @media (min-width: 900px) {
     img.logo {
-      clip: rect(0, 23.7em, 5em, 0);
-      height: 4.5em; } }
+      clip: rect(0, 23.7em, 4em, 0); } }
 
 img.hamburger-menu {
   width: 5em;
   cursor: pointer;
   -webkit-transition: all 0.09s ease;
   transition: all 0.09s ease;
-  -webkit-animation: slide-in-left 1s ease;
-          animation: slide-in-left 1s ease; }
+  -webkit-animation: slide-in-left 0.9s ease;
+          animation: slide-in-left 0.9s ease; }
   @media (min-width: 900px) {
     img.hamburger-menu {
       margin-right: -55px;
@@ -312,14 +307,15 @@ nav li {
 
 nav a {
   display: block;
-  padding: 18px;
+  padding: 12px 18px;
   font-size: 1.5em;
   color: #F6F6F6; }
   nav a:hover, nav a :focus {
     color: #F6F6F6; }
   @media (min-width: 900px) {
     nav a {
-      color: #262626; } }
+      color: #262626;
+      padding: 12px 18px; } }
 
 header:after {
   content: "";
@@ -333,15 +329,12 @@ header:after {
   background: linear-gradient(to bottom, #171717, transparent);
   -webkit-transition: all 0.09s ease;
   transition: all 0.09s ease; }
-  @media (min-width: 900px) {
-    header:after {
-      top: 6.5em; } }
 
 main {
   background-color: #eeeeee;
   min-height: 65vh;
-  -webkit-animation: fade-in 1s;
-          animation: fade-in 1s; }
+  -webkit-animation: fade-in 0.9s ease;
+          animation: fade-in 0.9s ease; }
 
 .main-container {
   padding: 9px 0; }
@@ -417,8 +410,8 @@ footer {
           transform: scale(1.03); }
 
 #page-top {
-  -webkit-transition: all 4s ease;
-  transition: all 4s ease; }
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease; }
 
 .loader-container {
   background-color: #F6F6F6;
@@ -465,7 +458,7 @@ footer {
             transform: rotate(360deg); } }
 
 .action-section {
-  margin: 24px 0 18px;
+  margin: 45px 0;
   text-align: center; }
 
 .portfolio figcaption {
@@ -578,18 +571,34 @@ button {
   button:active {
     background-color: #7a2d40; }
 
+a.button {
+  margin: 18px 0;
+  background-color: #b2415e;
+  margin: 9px auto;
+  padding: 1em;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #F6F6F6;
+  -webkit-transition: all 0.09s ease;
+  transition: all 0.09s ease;
+  border: none; }
+  a.button:hover {
+    background-color: #9C3952;
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03); }
+  a.button:focus {
+    padding: 1em;
+    background-color: #9C3952;
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+    outline: none; }
+  a.button:active {
+    background-color: #7a2d40; }
+
 #select-date label {
   display: inline-block;
   margin: 0 0 9px 20px;
   text-align: center; }
-
-input[type="submit"] {
-  background-color: #262626;
-  color: #F6F6F6;
-  font-weight: 500;
-  cursor: pointer; }
-  input[type="submit"]:hover {
-    background-color: #171717; }
 
 .scrollbar {
   overflow-y: scroll; }
@@ -615,7 +624,7 @@ input[type="submit"] {
       width: 30%;
       min-width: 23em;
       vertical-align: top;
-      margin: 1.25em;
+      margin: 9px;
       -webkit-transition: all 0.09s ease;
       transition: all 0.09s ease; }
       .box.hover {
@@ -662,7 +671,9 @@ input[type="submit"] {
   margin: 9px 6px;
   padding: 12px 12px;
   color: #F6F6F6;
-  border: 3px #3B102B solid; }
+  border: 3px #3B102B solid;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
   .redbox::-moz-selection, .redbox span::-moz-selection {
     background-color: #262626; }
   .redbox::selection, .redbox span::selection {
@@ -707,34 +718,42 @@ input[type="submit"] {
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
+  overflow: scroll;
   background-color: #262626;
-  background-color: rgba(0, 0, 0, 0.7); }
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-transition: all 0.09s ease;
+  transition: all 0.09s ease; }
 
-/* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 13.5% auto;
+  margin: 125px auto;
   padding: 33px;
   border: 3px solid #863146;
-  width: 70%; }
+  width: 70%;
+  height: 70%; }
   .modal-content p {
-    width: 100%; }
+    width: 100%;
+    text-align: left; }
 
 /* The Close Button */
 .close {
   position: relative;
-  top: -25px;
-  right: -10px;
+  top: -23px;
+  right: -20px;
   float: right;
-  color: rgba(23, 23, 23, 0.95);
-  font-size: 3em;
-  font-weight: bold; }
+  color: #F6F6F6;
+  background-color: #666666;
+  border-radius: 50%;
+  padding: 0px 15px;
+  font-size: 2.5em;
+  font-weight: bold;
+  -webkit-transition: all 0.09s ease;
+  transition: all 0.09s ease; }
 
 .close:hover,
 .close:focus {
-  color: #262626;
-  text-decoration: none;
+  color: #F6F6F6;
+  background-color: #262626;
   cursor: pointer; }
 
 .box img {
@@ -775,7 +794,7 @@ img.profile {
       float: left;
       margin: 6px 33px;
       text-align: justify;
-      width: 10em; } }
+      width: 9em; } }
 
 article.bio-pic {
   display: inline-block;

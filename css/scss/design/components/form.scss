@@ -83,27 +83,14 @@ select {
 }
 
 button {
-  display: block;
-  background-color: $wine-light;
-  margin: $amount-average auto;
-  padding: 1em;
-  font-size: 1.1em;
-  font-weight: 600;
-  color: $white;
-  transition: transition();
-  border: none;
-  &:hover {
-    background-color: $wine;
-    @include transform;
+  @include button {
+    display: block;
   }
-  &:focus {
-    padding: 1em;
-    background-color: $wine;
-    @include transform;
-    outline: none;
-  }
-  &:active {
-    background-color: $wine-darkest;
+}
+
+a.button {
+  @include button {
+    margin: $amount-large $amount-none;
   }
 }
 
@@ -116,15 +103,6 @@ button {
   }
 }
 
-input[type="submit"] {
-  background-color: $charcoal;
-  color: $white;
-  font-weight: 500;
-  cursor: pointer;
-  &:hover {
-    background-color: $charcoal-pure;
-  }
-}
 
 .scrollbar {
 	overflow-y: scroll;

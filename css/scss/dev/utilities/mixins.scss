@@ -12,6 +12,10 @@
     transform: scale($amount);
   }
 
+  @mixin animation($name, $amount: .9s, $type: ease) {
+    animation: $name $amount $type;
+  }
+
 /// ELEMENTS ///
 
   /// FORMS
@@ -23,6 +27,31 @@
       padding: 3px 6px;
       font-weight: 100;
       text-align: left;
+    }
+
+    @mixin button {
+      @content;
+      background-color: $wine-light;
+      margin: $amount-average auto;
+      padding: 1em;
+      font-size: 1.1em;
+      font-weight: 600;
+      color: $white;
+      transition: transition();
+      border: none;
+      &:hover {
+        background-color: $wine;
+        @include transform(scale);
+      }
+      &:focus {
+        padding: 1em;
+        background-color: $wine;
+        @include transform(scale);
+        outline: none;
+      }
+      &:active {
+        background-color: $wine-darkest;
+      }
     }
 
   // IMAGES

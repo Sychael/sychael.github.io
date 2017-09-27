@@ -20,10 +20,6 @@ h1, h2, h3, h4 {
 	transition: transition();
 }
 
-p {
-  white-space: pre-wrap;
-}
-
 a {
   text-decoration: none;
   color: $charcoal;
@@ -35,7 +31,7 @@ button {
   cursor: pointer;
 }
 
-a, span, figcaption, button, input, option {
+a, span, figcaption, button, input, option, ::placeholder {
   font-family: $font-primary;
 }
 

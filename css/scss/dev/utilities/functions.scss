@@ -4,10 +4,10 @@
     @return $property $duration $method;
   }
 
-  @function transition-medium($property: all, $duration: .6s, $method: ease) {
+  @function transition-medium($property: all, $duration: .3s, $method: ease) {
     @return $property $duration $method;
   }
 
-  @function transition-long($property: all, $duration: 4s, $method: ease) {
+  @function transition-long($property: all, $duration: .6s, $method: ease) {
     @return $property $duration $method;
   }

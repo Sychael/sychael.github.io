@@ -16,12 +16,12 @@ header {
   background-color: $white-fade;
   top: $amount-narrow;
   position: sticky;
-  padding: 0 $amount-average;
+  padding: $amount-medium $amount-average;
   justify-content: space-between;
   align-items: center;
   transition: transition();
-  @include breakpoint($breakpoint-devices-medium-cell) {
-    padding: $amount-none $amount-large;
+  @include breakpoint() {
+    padding: 2px $amount-average;
   }
 }
 
@@ -29,21 +29,16 @@ header {
 
 .logo-container {
   height: 4em;
-  margin: $amount-medium 0;
   transition: transition();
-  animation: slide-in-right 1s ease;
-  @include breakpoint() {
-    height: 5em;
-  }
+  @include animation(slide-in-right);
 }
 img.logo {
-  position: absolute;
   height: 4em;
-  clip: rect(0, 4.1em, 5em, 0);
-  transition: transition();
+  position: absolute;
+  clip: rect(0, 4.1em, 4em, 0);
+  transition: transition-medium();
   @include breakpoint() {
-    clip: rect(0, 23.7em, 5em, 0);
-    height: 4.5em;
+    clip: rect(0, 23.7em, 4em, 0);
   }
 }
 
@@ -54,7 +49,7 @@ img.hamburger-menu {
   width: 5em;
   cursor: pointer;
   transition: transition();
-  animation: slide-in-left 1s ease;
+  @include animation(slide-in-left);
   @include breakpoint {
     margin-right: -55px;
     display: none;
@@ -101,7 +96,7 @@ nav {
   }
   a {
     display: block;
-    padding: $amount-large;
+    padding: $amount-medium $amount-large;
     font-size: 1.5em;
     color: $white;
     &:hover, :focus {
@@ -109,6 +104,7 @@ nav {
     }
     @include breakpoint() {
       color: $charcoal;
+      padding: $amount-medium $amount-large;
     }
   }
 }
@@ -124,8 +120,5 @@ header {
     width: 100%;
     background: linear-gradient(to bottom, $charcoal-pure, $transparent);
     transition: transition();
-    @include breakpoint() {
-      top: 6.5em;
-    }
   }
 }

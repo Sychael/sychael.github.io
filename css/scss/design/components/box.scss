@@ -12,7 +12,7 @@
     width: 30%;
     min-width: 23em;
     vertical-align: top;
-    margin: 1.25em;
+    margin: $amount-average;
     transition: transition();
     &.hover {
       opacity: .9;
@@ -70,6 +70,7 @@
   padding: $amount-medium $amount-medium;
   color: $white;
   border: 3px $wine-border solid;
+  transition: transition-medium();
   &::selection, span::selection {
     background-color: $charcoal;
   }

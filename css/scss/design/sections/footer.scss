@@ -30,11 +30,11 @@ footer {
     transition: transition();
     &:hover {
       color: $wine-light;
-      @include transform;
+      @include transform();
     }
     &:focus {
       color: $wine-light;
-      @include transform;
+      @include transform();
       outline: none;
     }
     @include breakpoint() {
@@ -56,12 +56,12 @@ footer {
       width: 3em;
     }
     &:focus {
-      @include transform;
+      @include transform(scale);
       outline: none;
     }
   }
   :hover {
-    @include transform;
+    @include transform(scale);
   }
 }
 
