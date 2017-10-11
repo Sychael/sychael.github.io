@@ -14,9 +14,15 @@ footer {
 }
 
   .footer-info {
+    p {
+      font-weight: 200;
+    }
     margin: $amount-none auto;
     padding: $amount-none $amount-superlarge;
     transition: transition();
+    @include breakpoint($breakpoint-devices-large-cell) {
+      font-size: 1.1rem;
+    }
     @include breakpoint() {
       display: flex;
       justify-content: space-between;
@@ -25,21 +31,28 @@ footer {
   }
 
   .footer-nav a {
+    font-weight: 200;
     display: inline-block;
     padding: $amount-average $amount-small $amount-none;
     transition: transition();
     &:hover {
       color: $wine-light;
-      @include transform();
     }
     &:focus {
       color: $wine-light;
-      @include transform();
       outline: none;
     }
     @include breakpoint() {
       font-size: 1.2rem;
       padding: $amount-none $amount-medium;
+    }
+  }
+
+  a.mobile {
+    text-transform: uppercase;
+    font-weight: 200;
+    @include breakpoint($breakpoint-devices-large-cell) {
+      font-size: 1.1rem;
     }
   }
 
@@ -50,21 +63,24 @@ footer {
     display: inline-block;
     width: 2em;
     padding: $amount-small $amount-narrow;
-    margin-top: $amount-narrow;
+    margin: $amount-small $amount-none;
     transition: transition();
+    @include breakpoint($breakpoint-devices-medium-cell) {
+      font-size: 1.15em;
+    }
+    @include breakpoint($breakpoint-devices-tablet) {
+      font-size: 1.25em;
+    }
     @include breakpoint() {
-      width: 3em;
+      margin: $amount-median $amount-none $amount-none;
+      width: 2.5em;
     }
     &:focus {
-      @include transform(scale);
+      @include transform-scale();
       outline: none;
     }
   }
   :hover {
-    @include transform(scale);
+    @include transform-scale();
   }
-}
-
-#page-top {
-  transition: transition-long();
 }

@@ -1,38 +1,41 @@
 .box {
   display: block;
-  background-color: $charcoal-light;
-  border-radius: 9px;
+  background-color: $charcoal-lighter;
+  border-radius: $amount-none $amount-none $amount-average $amount-average;
   vertical-align: top;
   margin: 2em auto;
   padding-bottom: $amount-medium;
-  width: 80%;
+  width: 100%;
   vertical-align: top;
+  &.no-padding {
+    padding: $amount-none;
+  }
+  &:focus {
+    border: $amount-small $wine solid;
+    outline: none;
+    padding: 0;
+    transform-origin: 50%;
+  }
   @include breakpoint() {
     display: inline-block;
+    min-width: 17em;
     width: 30%;
-    min-width: 23em;
-    vertical-align: top;
-    margin: $amount-average;
+    margin: $amount-medium;
     transition: transition();
     &.hover {
       opacity: .9;
       &:hover {
         opacity: 1;
       }
-    }
-  }
-  .white {
-    color: $white;
-    font-weight: 500;
-    transition: transition();
-    &:hover {
-      color: $wine-brightest;
+  @include breakpoint($breakpoint-devices-desktop) {
+    min-width: 22em;
+      }
     }
   }
   img {
-    padding: $amount-average $amount-none $amount-none;
-    .box-img {
-      vertical-align: baseline;
+    padding: $amount-none;
+    &.logo-client {
+      padding: $amount-large $amount-none;
     }
   }
   h3 {
@@ -41,15 +44,12 @@
     font-size: 1.4em;
     font-weight: 600;
   }
-  ul {
-    margin: 9px 0;
-  }
+
   li {
     color: $white;
     font-size: 1em;
     font-weight: 300;
     text-align: left;
-    margin-left: 19px;
     @include breakpoint($breakpoint-devices-large-cell) {
       font-size: 1.25em;
     }
@@ -57,32 +57,46 @@
       font-size: 1.4em;
     }
   }
-  p {
+  p, a {
     margin: 0 13px 9px 19px;
     color: $white;
     text-align: left;
+  }
+  figcaption {
+    font-size: 1.2em;
+    transition: transition();
+    @include breakpoint() {
+      font-size: 1em;
+    }
+    @include breakpoint($breakpoint-devices-desktop) {
+      font-size: 1.4em;
+    }
   }
 }
 
 .redbox {
   background-color: $wine-trans;
-  margin: $amount-average $amount-small;
+  margin: $amount-small $amount-none;
   padding: $amount-medium $amount-medium;
   color: $white;
-  border: 3px $wine-border solid;
+  border: 2px $wine-border solid;
   transition: transition-medium();
   &::selection, span::selection {
     background-color: $charcoal;
   }
   @include breakpoint() {
-    padding: $amount-open $amount-small;
+    padding: $amount-open $amount-medium;
+  }
+  @include breakpoint($breakpoint-devices-desktop) {
+    padding: $amount-open $amount-large;
   }
 }
 
 .headerbox-red {
   padding: $amount-large;
-  background-color: $wine;
+  background-color: $wine-trans;
   margin: $amount-none $amount-none $amount-large $amount-none;
+  color: $white;
   &::selection {
     background-color: $charcoal;
   }

@@ -9,10 +9,6 @@
   padding: 9px;
 }
 
-body {
-  background: linear-gradient(to top, $wine-dark 2%, $white);
-}
-
 /// ELEMENTS ///
 
 h1 {
@@ -32,6 +28,9 @@ h1 {
   @include breakpoint() {
     font-size: 3.2rem;
   }
+  @include breakpoint($breakpoint-devices-desktop) {
+    font-size: 3.5rem;
+  }
 }
 
 h2 {
@@ -50,23 +49,62 @@ h2 {
   @include breakpoint() {
     font-size: 2.5rem;
   }
+  @include breakpoint($breakpoint-devices-desktop) {
+    font-size: 2.8rem;
+  }
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 1.1rem;
   font-weight: 700;
   text-align: center;
+  @include breakpoint($breakpoint-devices-medium-cell) {
+    font-size: 1.25rem;
+  }
+  @include breakpoint($breakpoint-devices-large-cell) {
+    font-size: 1.5rem;
+  }
+  @include breakpoint($breakpoint-devices-tablet) {
+    font-size: 1.75rem;
+  }
+  @include breakpoint() {
+    font-size: 2rem;
+  }
+  @include breakpoint($breakpoint-devices-desktop) {
+    font-size: 2.1rem;
+  }
 }
 
 h4 {
-  
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  @include breakpoint($breakpoint-devices-medium-cell) {
+    font-size: 1.1rem;
+  }
+  @include breakpoint($breakpoint-devices-large-cell) {
+    font-size: 1.2rem;
+  }
+  @include breakpoint($breakpoint-devices-tablet) {
+    font-size: 1.35rem;
+  }
+  @include breakpoint() {
+    font-size: 1.5rem;
+  }
+  @include breakpoint($breakpoint-devices-desktop) {
+    font-size: 1.6rem;
+  }
 }
 
 
 a {
   transition: transition();
-  font-weight: 300;
+  font-weight: 500;
   &:hover {
+    color: $wine;
+  }
+  &:focus {
+    outline: none;
     color: $wine;
   }
 }
@@ -76,15 +114,16 @@ p {
   font-weight: 300;
 }
 
+strong {
+  font-weight: 600;
+}
+
 /// IMAGES ///
 
 figure {
   @include breakpoint() {
     display: inline-block;
-    margin: $amount-open $amount-large;
-  }
-  figcaption {
-    font-size: 1.5em;
+    margin: $amount-none;
   }
 }
 
@@ -96,9 +135,19 @@ figure {
   }
 }
 
+.scrollbar {
+	overflow-y: scroll;
+  &::-webkit-scrollbar {
+  	width: $amount-average;
+  }
+  &::-webkit-scrollbar-thumb {
+  	background-color: $charcoal-opaq;
+  }
+}
+
 .mobile-hide {
   display: none;
-  @include breakpoint() {
+  @include breakpoint($breakpoint-devices-desktop) {
     display: inline-block;
   }
 }

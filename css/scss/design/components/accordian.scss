@@ -1,0 +1,14 @@
+p.accordian {
+  text-align: center;
+  font-size: 5em;
+  cursor: pointer;
+  height: .5em;
+}
+
+.panel {
+  transition: transition-medium();
+}
+
+.display {
+  display: none;
+}

@@ -2,7 +2,7 @@
 
 @if($top-color-bar == true) {
     .top-bar {
-      background: linear-gradient(to top, $wine-lighten, $wine-dark);
+      background: $wine;
       height: $amount-average;
       top: -$amount-small;
       position: sticky;
@@ -16,12 +16,12 @@ header {
   background-color: $white-fade;
   top: $amount-narrow;
   position: sticky;
-  padding: $amount-medium $amount-average;
+  padding: $amount-medium $amount-wide;
   justify-content: space-between;
   align-items: center;
   transition: transition();
   @include breakpoint() {
-    padding: 2px $amount-average;
+    padding: 2.5px $amount-wide;
   }
 }
 
@@ -29,14 +29,13 @@ header {
 
 .logo-container {
   height: 4em;
-  transition: transition();
-  @include animation(slide-in-right);
 }
 img.logo {
   height: 4em;
   position: absolute;
   clip: rect(0, 4.1em, 4em, 0);
   transition: transition-medium();
+  @include animate(slide-in-right);
   @include breakpoint() {
     clip: rect(0, 23.7em, 4em, 0);
   }
@@ -49,7 +48,7 @@ img.hamburger-menu {
   width: 5em;
   cursor: pointer;
   transition: transition();
-  @include animation(slide-in-left);
+  @include animate(slide-in-left);
   @include breakpoint {
     margin-right: -55px;
     display: none;
@@ -65,8 +64,10 @@ nav {
       display: flex;
     }
   .active-nav-link {
-    color: $wine;
-    font-weight: 500;
+    background-color: $wine-trans;
+    border: 1.5px solid $wine-border;
+    color: $white;
+    font-weight: 400;
   }
   }
   ul {
@@ -86,25 +87,38 @@ nav {
   li {
     text-align: center;
     &:hover {
-      background: $wine;
+      background: $wine-trans;
+      @include breakpoint() {
+        background: $charcoal-lighter;
+      }
     }
     :focus {
-      background: $wine;
+      background: $wine-trans;
       padding: $amount-large;
       outline: none;
     }
   }
   a {
     display: block;
-    padding: $amount-medium $amount-large;
-    font-size: 1.5em;
+    padding: $amount-large $amount-large;
+    font-size: 1.4em;
+    font-weight: 200;
+    // text-transform: uppercase;
     color: $white;
-    &:hover, :focus {
+    &:hover, &:focus {
+      background-color: $wine-trans;
       color: $white;
+      padding: $amount-large $amount-open;
+      @include breakpoint() {
+        background-color: $charcoal;
+      }
     }
     @include breakpoint() {
       color: $charcoal;
-      padding: $amount-medium $amount-large;
+      padding: $amount-medium $amount-wide;
+      &:hover, &:focus {
+        padding: $amount-medium $amount-wide;
+        }
     }
   }
 }

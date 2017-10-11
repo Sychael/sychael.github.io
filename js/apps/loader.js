@@ -8,13 +8,10 @@ header.style.display = "flex";
 main.style.display = "none";
 footer.style.display = "none";
 
-
-function myFunction() {
-    setTimeout(showPage, 500);
-}
-
 function showPage() {
   loader.style.display = "none";
   main.style.display = "block";
   footer.style.display = "block";
 }
+
+setTimeout(showPage, 600);

@@ -1,22 +1,12 @@
 form {
-  width: 90%;
-  margin: $amount-none auto $amount-none $amount-open;
-  @include breakpoint($breakpoint-devices-medium-cell) {
-    margin: 0 auto;
-    width: 80%;
-  }
+  width: 75%;
+  margin: $amount-none auto;
+  transition: transition();
   @include breakpoint() {
-    width: 70%;
+    width: 75%;
   }
-}
-
-h4 {
-  font-size: 1em;
-  text-align: center;
-  &> span {
-    @include syrchael;
-    font-weight: 600;
-    color: $white;
+  @include breakpoint($breakpoint-devices-desktop) {
+    width: 70%;
   }
 }
 
@@ -30,8 +20,8 @@ label {
   font-weight: 600;
   margin: 0 auto;
   span {
-    font-weight: 300;
-    font-size: 1rem;
+    font-weight: 200;
+    font-size: $amount-median;
   }
 }
 
@@ -42,7 +32,7 @@ textarea {
   padding: $amount-average $amount-medium;
   margin: $amount-average auto;
   font-size: 1.05em;
-  width: 85%;
+  width: 100%;
   transition: transition();
   &:focus {
     border: $charcoal $amount-narrow solid;
@@ -59,12 +49,6 @@ textarea {
 
 input {
   display: inline-block;
-  // &:invalid {
-  //   border: solid $wine-light 3px;
-  // }
-  &[type="range"] {
-    padding: 6px 9px 6px 13px;
-  }
 }
 
 textarea {
@@ -88,30 +72,10 @@ button {
   }
 }
 
+
 a.button {
   @include button {
     margin: $amount-large $amount-none;
   }
-}
 
-// Hire Form
-#select-date {
-  label {
-    display: inline-block;
-    margin: 0 0 9px 20px;
-    text-align: center;
-  }
-}
-
-
-.scrollbar {
-	overflow-y: scroll;
-}
-
-.style-3::-webkit-scrollbar {
-	width: $amount-average;
-}
-
-.style-3::-webkit-scrollbar-thumb {
-	background-color: $charcoal-opaq;
 }

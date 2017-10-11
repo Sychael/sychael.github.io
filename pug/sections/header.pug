@@ -1,11 +1,11 @@
 block pages
-  - var navLink = {'Home' : '../index.html', 'About' : '../about.html', 'Services' : '../services.html', 'Contact' : '../contact.html'};
+  - var navLink = {'Home' : '/index', 'About' : '/about', 'Services' : '/services', 'Contact' : '/contact'};
 
 .top-bar(role="decoration")
 header
   .logo-container
     a(href="index.html")
-      img.logo(src="img/logo/sychael-logo.svg" alt="Cycle Web Design and Development Logo")
+      img.logo.animate(src="img/logo/sychael-logo.svg" alt="Cycle Web Design and Development Logo")
   nav
-    img.hamburger-menu(src="img/menu/menu-hamburger.svg" alt="Navigation Menu")
+    img.hamburger-menu.animate(src="img/menu/menu-hamburger.svg" alt="Navigation Menu")
     include ../components/nav

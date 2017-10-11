@@ -4,11 +4,11 @@ block footer
 footer
   .footer-info
     .copyright
-      p &copy; Sychael Site | #[span.dateYear]
+      p &copy; Sychael Site #[span.dateYear]
     .footer-nav
-      a.modalPopup Terms &amp; Conditions
+      a.modalPopup(tabindex= 0) Terms &amp; Conditions
   include ../components/modal
-  .icons-social-media
+  .icons-social-media.tooltip
     +img_icon-social("https://github.com/Sychael", "github", "GitHub", "GitHub Icon")
     +img_icon-social("https://codepen.io/Sychael/", "codepen", "Codepen", "Codepen Icon")
     +img_icon-social("https://www.facebook.com/sychaelsites", "facebook", "Facebook",  "Facebook Icon")

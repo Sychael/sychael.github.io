@@ -35,14 +35,14 @@
       $white-dirt: darken($white, 6%);
       $white-polluted: darken($white, 9%);
       // WHITE-OPACITY
-      $white-fade: rgba($white, .98);
+      $white-fade: rgba($white, .99);
       $white-trans: rgba($white, .9);
       $white-transp: rgba($white, .8);
 
       /// CHARCOAL
       $charcoal-lightest: lighten($charcoal, 25%);
-      $charcoal-bright: lighten($charcoal, 15%);
-      $charcoal-lighter: lighten($charcoal, 9%);
+      $charcoal-bright: lighten($charcoal, 12%);
+      $charcoal-lighter: lighten($charcoal, 6%);
       $charcoal-light: lighten($charcoal, 3%);
       $charcoal-original: $charcoal;
       $charcoal-pure: darken($charcoal, 6%);
@@ -66,17 +66,6 @@
   $amount-superlarge: 33px;
   $amount-enormous: 45px;
   $amount-gigantic: 3em;
-
-
-/// QUERIES ///
-
-  $breakpoint-devices-default: 320px;
-  $breakpoint-devices-medium-cell: 375px;
-  $breakpoint-devices-large-cell: 411px;
-  $breakpoint-devices-tablet: 768px;
-  $breakpoint-devices-main: 900px;
-  $breakpoint-devices-main: 900px;
-  $mediaquery-print: print;
 
 /// WEBSITE FEATURES ///
 

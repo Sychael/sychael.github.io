@@ -1,24 +1,22 @@
-var modal = document.getElementById('myModal');
+const modalWindow = document.querySelector('#myModal');
+const popupLink = document.querySelector(".modalPopup");
+const closeButton = document.querySelector(".close");
 
-// Get the button that opens the modal
-var btn = document.querySelector(".modalPopup");
+// window.addEventListener('resize', () => {
+//   if (window.innerWidth >= 900) {
+//     menu.classList.add('reveal');
+//   }
+// });
 
-// Get the <span> element that closes the modal
-var close = document.getElementsByClassName("close")[0];
-
-// When the user clicks on the button, open the modal
-btn.onclick = function() {
-    modal.style.display = "block";
+popupLink.onclick = function() {
+    modalWindow.style.display = "block";
+}
+closeButton.onclick = function() {
+    modalWindow.style.display = "none";
 }
 
-// When the user clicks on <span> (x), close the modal
-close.onclick = function() {
-    modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+window.addEventListener('click', (clickOffClose) => {
+    if (clickOffClose.target == modalWindow) {
+        modalWindow.style.display = "none";
     }
-}
+});

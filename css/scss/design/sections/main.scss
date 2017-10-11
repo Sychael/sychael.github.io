@@ -10,8 +10,15 @@ main {
 
 section {
   padding: $amount-large $amount-none;
+  .backgound-white {
+    background-color: $white;
+  }
 }
 
 .section-container {
-  padding: $amount-large $amount-large;
+  padding: $amount-large $amount-open;
+  transition: transition();
+  @include breakpoint($breakpoint-devices-desktop) {
+    padding: $amount-large $amount-enormous;
+  }
 }

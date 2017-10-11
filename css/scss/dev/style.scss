@@ -3,6 +3,7 @@
 ////// DEVELOPMENT //////
 
 @import "utilities/variables";
+@import "utilities/extends";
 @import "utilities/functions";
 @import "utilities/mixins";
 @import "utilities/animations";
@@ -22,11 +23,12 @@
 /// COMPONENTS ///
 @import "../design/components/loader";
 @import "../design/components/action";
-@import "../design/components/hero";
+@import "../design/components/button";
 @import "../design/components/projects-work";
 @import "../design/components/form";
 @import "../design/components/box";
 @import "../design/components/label";
+@import "../design/components/accordian";
 @import "../design/components/modal";
 
 /// PAGES ///
@@ -34,4 +36,4 @@
 @import "../design/pages/about";
 @import "../design/pages/work";
 @import "../design/pages/contact";
-@import "../design/pages/404";
+@import "../design/pages/error";

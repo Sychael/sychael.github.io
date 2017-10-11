@@ -1,6 +1,6 @@
 .portfolio {
   figcaption {
-    padding: $amount-open;
+    padding: $amount-open $amount-medium;
   }
   figure {
     @include figure;

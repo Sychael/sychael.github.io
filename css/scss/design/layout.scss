@@ -14,10 +14,14 @@ footer
 /// PRINT ///
 
 @media print {
+  body {
+    padding: 0;
+  }
   img {
-    display: inherit;
+    display: none;
   }
   header,
+  nav,
   footer {
     display: none;
   }

@@ -7,20 +7,22 @@ block description
   meta(name="description" content="Contact Website Construction if you have any inquiries, questions or concerns. If you are looking to hire Website Consturction leave a message and go to the Hire page.")
     
 block main
-  section
+  section.section-container
     h1.redbox Contact Me
-    .contact-info
-      a(href="tel:16307910269")
-        img.img-icon-phone(src='img/icons/phone.svg' alt="call mobile phone number")
-        a(href="tel:16307910269") 1 (630) 791-0269
+    .button-contact
+      .icon-button-contact
+        img.icon-contact(src='img/icons/phone.svg' alt="call mobile phone number")
+        .contact-info
+          a(href="tel:16307910269") 1 (630) 791-0269
     br
-    .contact-info
-      a(href="mailto:sychael.michael@gmail.com")
-        img.img-icon-phone(src='img/icons/email.svg' alt="send email")
-        a(href="mailto:sychael.michael@gmail.com") sychael.michael@gmail.com
-  form(method="post" action="form-submitted.html" role="form")
+    .button-contact
+      .icon-button-contact
+        img.icon-contact#email(src='img/icons/email.svg' alt="send email")
+        .contact-info
+          a(href="mailto:sychael.michael@gmail.com") sychael.michael@gmail.com
+  form(method="post" action="form-submittedl" role="form")
     fieldset
-      h4 #[span.number 1] Your Info
+      //- h4 #[span.number 1] Your Info
       .form-field
         label(for="name") Full Name
         input(type="text" name="name" id="name" pattern="[a-zA-Z  ]{2,}[ ]{1}[a-zA-Z]{2,}" title="Please Enter Your First and Last Name" required="required")
@@ -35,16 +37,16 @@ block main
           span *If Applicable
         input(type="text" id="company" name="company")
     fieldset
-      h4 #[span.number 2] Your Reason
-      .form-field
-        label(for="reason") Choose A Reason
-        select(name="reason" id="reason")
-          optgroup(label="Professional")
-            option(value="hire" id="option") Hire for Work
-          optgroup(label="Personal")
-            option(value="general" id="general") General Message
-            option(value="problem" id="problem") Problem with Site
       .form-field
         label(for="message") Message
-        textarea.scrollbar.style-3(name="message" id="message" placeholder="Describe Your Project")
+        textarea.scrollbar.style-3(name="message" id="message")
       button(type="submit") Send Message
+    //-   h4 #[span.number 2] Your Reason
+    //-   .form-field
+    //-     label(for="reason") Choose A Reason
+    //-     select(name="reason" id="reason")
+    //-       optgroup(label="Professional")
+    //-         option(value="hire" id="option") Hire for Work
+    //-       optgroup(label="Personal")
+    //-         option(value="general" id="general") General Message
+    //-         option(value="problem" id="problem") Problem with Site

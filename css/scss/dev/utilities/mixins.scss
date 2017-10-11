@@ -1,5 +1,13 @@
 /// BREAKPOINT ///
 
+/// QUERIES ///
+
+  $breakpoint-devices-default: 320px;
+  $breakpoint-devices-medium-cell: 375px;
+  $breakpoint-devices-large-cell: 411px;
+  $breakpoint-devices-tablet: 768px;
+  $breakpoint-devices-main: 900px;
+  $breakpoint-devices-desktop: 1150px;
   @mixin breakpoint($value: $breakpoint-devices-main) {
     @media(min-width: #{$value}) {
       @content;
@@ -8,12 +16,20 @@
 
 /// ANIMATIONS ///
 
-  @mixin transform($type: scale, $amount: 1.03) {
-    transform: scale($amount);
+  @mixin transform($transform) {
+    transform: $transform;
   }
+    @mixin transform-scale($type: scale, $amount: 1.03) {
+      @include transform(scale($amount));
+    }
 
   @mixin animation($name, $amount: .9s, $type: ease) {
     animation: $name $amount $type;
+  }
+  @mixin animate($name) {
+    &.animate {
+      @include animation($name);
+    }
   }
 
 /// ELEMENTS ///
@@ -31,26 +47,24 @@
 
     @mixin button {
       @content;
-      background-color: $wine-light;
+      background-color: $wine-trans;
       margin: $amount-average auto;
-      padding: 1em;
+      padding: 1em 1.75em;
       font-size: 1.1em;
-      font-weight: 600;
+      font-weight: 500;
       color: $white;
       transition: transition();
-      border: none;
+      border: 1.5px $wine-border solid;
       &:hover {
         background-color: $wine;
-        @include transform(scale);
       }
       &:focus {
-        padding: 1em;
+        padding: 1em 1.75em;
         background-color: $wine;
-        @include transform(scale);
         outline: none;
       }
       &:active {
-        background-color: $wine-darkest;
+        background-color: $charcoal;
       }
     }
 

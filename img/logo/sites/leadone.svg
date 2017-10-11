@@ -3,26 +3,26 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="150" height="150" viewBox="0, 0, 150, 150">
   <defs>
     <clipPath id="Clip_1">
-      <path d="M17.532,16.481 L132.468,16.481 L132.468,133.519 L17.532,133.519 z"/>
+      <path d="M132.467,16.481 L132.467,133.519 L17.532,133.519 L17.532,16.481 L132.467,16.481 z"/>
     </clipPath>
   </defs>
   <g id="Layer_1">
     <g>
-      <path d="M75,150 C33.579,150 0,116.421 0,75 C0,33.579 33.579,0 75,0 C116.421,0 150,33.579 150,75 C150,116.421 116.421,150 75,150 z" fill="#262626"/>
+      <path d="M75,150 C33.579,150 0,116.421 0,75 C0,33.579 33.579,0 75,0 C116.421,0 150,33.579 150,75 C150,116.421 116.421,150 75,150 z" fill="#2F2F2F"/>
       <path d="M44.472,28.978 L126.763,28.978" fill-opacity="0" stroke="#FEDA1C" stroke-width="11.719" display="none"/>
       <path d="M121.356,24.541 L122.094,108.701" fill-opacity="0" stroke="#FEDA1C" stroke-width="11.719" display="none"/>
       <path d="M48.029,26.705 L44.577,29.923 L41.157,26.672 z" fill-opacity="0" stroke="#FEDA1C" stroke-width="7.031" display="none"/>
       <path d="M124.333,112.727 L120.732,108.407 L123.981,103.816 z" fill-opacity="0" stroke="#FEDA1C" stroke-width="7.031" display="none"/>
     </g>
-    <g display="none">
-      <path d="M25.179,114.599 L70.863,71.71" fill-opacity="0" stroke="#FEDA1C" stroke-width="11.719"/>
-      <path d="M70.812,79.084 L33.286,38.903" fill-opacity="0" stroke="#FEDA1C" stroke-width="11.719"/>
-      <path d="M28.981,113.836 L24.557,113.819 L24.237,118.753 z" fill-opacity="0" stroke="#FEDA1C" stroke-width="7.031"/>
-      <path d="M32.233,34.309 L32.543,39.714 L37.143,40.223 z" fill-opacity="0" stroke="#FEDA1C" stroke-width="7.031"/>
+    <g>
+      <path d="M25.179,114.599 L70.863,71.71" fill-opacity="0" stroke="#FEDA1C" stroke-width="11.719" display="none"/>
+      <path d="M70.812,79.084 L33.286,38.903" fill-opacity="0" stroke="#FEDA1C" stroke-width="11.719" display="none"/>
+      <path d="M28.981,113.836 L24.557,113.819 L24.237,118.753 z" fill-opacity="0" stroke="#FEDA1C" stroke-width="7.031" display="none"/>
+      <path d="M32.233,34.309 L32.543,39.714 L37.143,40.223 z" fill-opacity="0" stroke="#FEDA1C" stroke-width="7.031" display="none"/>
     </g>
-    <g display="none">
-      <path d="M35.548,125.757 L80.999,82.622" fill-opacity="0" stroke="#FEDA1C" stroke-width="11.719"/>
-      <path d="M73.634,82.247 L111.585,122.028" fill-opacity="0" stroke="#FEDA1C" stroke-width="11.719"/>
+    <g>
+      <path d="M35.548,125.757 L80.999,82.622" fill-opacity="0" stroke="#FEDA1C" stroke-width="11.719" display="none"/>
+      <path d="M73.634,82.247 L111.585,122.028" fill-opacity="0" stroke="#FEDA1C" stroke-width="11.719" display="none"/>
       <path d="M36.529,122.006 L36.29,126.423 L31.346,126.459 z" fill-opacity="0" stroke="#FEDA1C" stroke-width="7.031" display="none"/>
       <path d="M116.111,123.344 L110.732,122.723 L110.489,118.101 z" fill-opacity="0" stroke="#FEDA1C" stroke-width="7.031" display="none"/>
     </g>
@@ -37,6 +37,6 @@
       <path d="M98.248,107.106" fill-opacity="0" stroke="#FFFFFF" stroke-width="16"/>
     </g>
     <path d="M110.093,128.306 C110.093,128.306 69.586,81.014 69.586,81.014 C69.586,81.014 57.41,91.385 57.41,91.385 C57.41,91.385 48.847,81.014 48.847,81.014 C48.847,81.014 53.044,76.553 54.858,71.414 C56.753,66.044 56.268,59.987 56.268,59.987 C56.268,59.987 69.586,47.428 69.586,47.428 C69.586,47.428 115.639,102.232 115.639,102.232" fill="#FFFFFF"/>
-    <path d="M79.872,123.02 C79.872,123.02 90.722,137.644 90.722,137.644 C90.722,137.644 81.58,139.011 81.58,139.011" fill="#FFFFFF"/>
+    <path d="M80.267,123.625 C80.267,123.625 91.117,138.249 91.117,138.249 C91.117,138.249 81.975,139.616 81.975,139.616" fill="#FFFFFF"/>
   </g>
 </svg>
