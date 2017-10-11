@@ -664,7 +664,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/js\/apps\/googleAnalytics.js",
+		"oAP": "\/js\/utilities\/googleAnalytics.js",
 		"oF": 3,
 		"sC": 1,
 		"tS": 1

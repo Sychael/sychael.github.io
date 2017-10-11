@@ -3,8 +3,6 @@
 ## Personally/Professional Websites
 This website is the homepage of Michael Lawinger of Sychael Web Design & Development. It is currently a work in progress and any help and ideas are appreciated as I want to have the best site I possibly can. Below is the outline of the header and footer.
 
-![Photo of Sychael Outline](images/read-me/sychael-outline.png)
-
 ## Purpose
 The purpose of the repository is to keep track and build a personal/professional website that is has the basic essentials, is clean and beautiful (code and visual appearance).
 
@@ -21,11 +19,6 @@ The purpose of the repository is to keep track and build a personal/professional
   * Validate Form
   * Send Form with Node.js
   * Have Terms Appear in Modal Popup
-
-**Potential Future Iterations**
-  * Client Blog
-    * Figure How to Have Them Positioned
-    * Store Posts as a Blog Forum
 ---
 
 ## License
