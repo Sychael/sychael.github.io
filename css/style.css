@@ -614,9 +614,9 @@ label {
 input,
 textarea {
   background-color: #F6F6F6;
-  border: transparent 3px solid;
+  border: #3B102B 2px solid;
   padding: 9px 12px;
-  margin: 9px auto;
+  margin: 10px auto;
   font-size: 1.05em;
   width: 100%;
   -webkit-transition: all 0.09s ease;

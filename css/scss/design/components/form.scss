@@ -28,9 +28,9 @@ label {
 input,
 textarea {
   background-color: $white;
-  border: $transparent $amount-narrow solid;
+  border: $wine-border 2px solid;
   padding: $amount-average $amount-medium;
-  margin: $amount-average auto;
+  margin: 10px auto;
   font-size: 1.05em;
   width: 100%;
   transition: transition();

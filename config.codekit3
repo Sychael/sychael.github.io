@@ -591,6 +591,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/photos\/team\/team-michael.jpg": {
+		"ft": 16384,
+		"iS": 363989,
+		"oA": 0,
+		"oAP": "\/img\/photos\/team\/team-michael.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -691,12 +701,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/login.html",
-		"oF": 0
-		},
-	"\/portfolio.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/portfolio.html",
 		"oF": 0
 		},
 	"\/pug\/components\/action.pug": {
@@ -876,16 +880,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/Senior Pic.jpg": {
-		"ft": 16384,
-		"iS": 363989,
-		"oA": 0,
-		"oAP": "\/Senior Pic.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"\/services.html": {
 		"ft": 8192,
