@@ -21,6 +21,10 @@ img.box-port {
   width: 19em;
 }
 
-#meet {
-  background-color: $white-fade;
+.hero {
+  background-image: url('/img/photos/Sychael Sites.jpg');
+  background-position: 0 99px;
+  background-size: 113%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }

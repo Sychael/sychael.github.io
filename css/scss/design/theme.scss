@@ -29,7 +29,7 @@ h1 {
     font-size: 3.2rem;
   }
   @include breakpoint($breakpoint-devices-desktop) {
-    font-size: 3.5rem;
+    font-size: 3.8rem;
   }
 }
 
@@ -50,12 +50,12 @@ h2 {
     font-size: 2.5rem;
   }
   @include breakpoint($breakpoint-devices-desktop) {
-    font-size: 2.8rem;
+    font-size: 3.1rem;
   }
 }
 
 h3 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   text-align: center;
   @include breakpoint($breakpoint-devices-medium-cell) {
@@ -71,7 +71,7 @@ h3 {
     font-size: 2rem;
   }
   @include breakpoint($breakpoint-devices-desktop) {
-    font-size: 2.1rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -92,7 +92,7 @@ h4 {
     font-size: 1.5rem;
   }
   @include breakpoint($breakpoint-devices-desktop) {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
 }
 

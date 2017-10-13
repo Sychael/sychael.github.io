@@ -13,41 +13,51 @@
 }
 
 .modal-content {
-  position: fixed;
+  position: absolute;
   background-color: #fefefe;
-  margin: 175px 0%;
+  margin: 150px 7.5%;
   padding: $amount-superlarge;
   border: $amount-narrow solid $wine-border;
-  width: 90%;
-  height: 58.7%;
+  width: 70%;
+  height: 50%;
+  transition: transition();
   p {
     text-align: left;
   }
-}
-
-/* The Close Button */
-.close {
-  position: fixed;
-  top: 185px;
-  right: 5%;
-  float: right;
-  color: $white;
-  background-color: $charcoal;
-  border-radius: 50%;
-  padding: 0px 12px;
-  font-size: 2em;
-  font-weight: bold;
-  transition: transition();
-  z-index: 5;
+  @include breakpoint($breakpoint-devices-medium-cell) {
+    height: 52%;
+    margin: 150px 7.5%;
+  }
+  @include breakpoint($breakpoint-devices-medium-cell) {
+    height: 58%;
+  }
   @include breakpoint() {
-    font-size: 2.5em;
-    padding: 0px 15px;
+    width: 71%;
+    margin: 150px 12%;
   }
 }
 
-.close:hover,
-.close:focus {
+.close {
+  display: inline-block;
+  position: relative;
+  top: 120px;
+  margin: $amount-none auto;
   color: $white;
   background-color: $wine-trans;
+  border: 2px solid $wine-border;
+  border-radius: 50%;
+  padding: 0px 18px;
+  font-size: 3em;
+  font-weight: bold;
+  transition: transition();
+  z-index: 5;
+  &:hover, &:focus {
+    color: $white;
+    background-color: $wine;
     cursor: pointer;
+  }
+  @include breakpoint() {
+    font-size: 3.5em;
+    padding: 0px 21px;
+  }
 }

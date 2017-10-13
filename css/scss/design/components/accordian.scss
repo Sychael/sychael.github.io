@@ -3,6 +3,7 @@ p.accordian {
   font-size: 5em;
   cursor: pointer;
   height: .5em;
+  transition: transition-medium();
 }
 
 .panel {
@@ -11,4 +12,5 @@ p.accordian {
 
 .display {
   display: none;
+  transition: transition-medium();
 }
