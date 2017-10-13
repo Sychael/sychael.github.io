@@ -1,13 +1,13 @@
 extends ../layout
 
 block title
-  title Sychael Web Design & Development
+  title Sychael Web Design &amp; Development
   
 block description
-  meta(name="description" content="Communicating Your Personal Message Throught the Web Professionally &amp; Affordably.")
+  meta(name="description" content="Delivering Personally Professional Websites and Communicating Your Message On the Web Affordably.")
 
 block main  
-  section.section-container.principal(role="complementary")
+  section.section-container.principal.hero(role="complementary")
     h1.redbox Personally Professional 
       span.mobile-hide Websites
     h2 Communicating Your Personal&nbsp;Message 
@@ -23,7 +23,7 @@ block main
         a.box.no-padding(href="about.html")
           figcaption.headerbox-red Michael Lawinger
           img.box-img(src="img/logo/person-logo.svg" alt="The Builder of Sychael")
-  section.portfolio#hello
+  section.portfolio
     h2 View Sychael Sites
     h3 Explore Websites Built By Sychael
     figure
@@ -39,107 +39,3 @@ block main
         figcaption Dominican Advance
         img.logo-client(src="img/logo/sites/dalogo.svg" alt="Dominican Advance Website Link")
     
-  //- section#about.section-container.principal.page
-  //-   h1.redbox About Sychael
-  //-   article.bio-pic
-  //-     img.profile(src="../../../../Senior Pic.jpg" alt="")
-  //-     p.bio I'm Michael Lawinger, the designer and developer of Sychael. Sychael is the personalized name of my wife Sylvia &amp; I combined. My desire is through my love for God and Web Development, to create Personally Professional Websites that communicate the purpose of your work. I love Web because it's a perfect balance between creativity and logic! My goal as a Web Designer & Developer is to create an easily functional, clean designs by focusing the content of the website on your essentials needs.
-  //- section.section-container#meet
-  //-     h2 Personally Professional Websites
-  //-     .box
-  //-       h3.headerbox-red Personal
-  //-       p Every website is designed by people. I strive to be personal and pleasant to work with. My love for God fuels my desire to connect with people and my passion for web drives me to build sites that represent your identity and message!
-  //-     .box
-  //-       h3.headerbox-red Professional
-  //-       p Websites are essential to finding out inforamtion and reaching people with it. As my profession, I commit to delivering professional websites that meet needs, while not compromising quality.
-  //- section
-  //-   h2 Principles of Design
-  //-   .box-container
-  //-     .box
-  //-       h3.headerbox-red ★&nbsp;&nbsp;&nbsp; Essential Content
-  //-       ul
-  //-         li Refined Conent
-  //-         li Consise Wording
-  //-         li Relevant Media
-  //-     .box
-  //-       h3.headerbox-red ☀︎&nbsp;&nbsp;&nbsp; Clean Design
-  //-       ul
-  //-         li Pleasingly Aesthestic
-  //-         li Modern Design
-  //-         li Personalized Theme
-  //-     .box
-  //-       h3.headerbox-red ➥&nbsp;&nbsp;&nbsp; Simple Functionality
-  //-       ul
-  //-         li Intuitive Interactions
-  //-         li Simple Usability
-  //-         li Friendly Accessiblity
-  //-     include ../components/action
-  //- section#services.section-container.principal.page
-  //-   h1.redbox Sychael Services
-  //-   h2 Creating Clean &amp; Simple Websites
-  //-   //- h3 Startups &amp; Small Businesses
-  //-   .box
-  //-     h3.headerbox-red Sychael Site
-  //-     p As a Web Developer, websites are what I do best. Have a site custom built as well as add other services as neccessary. Sychael Sites are meant to amplify your message so your voice can reach your intended target. Sychael Sites are always are simple in design, easily functional and focus on conveying the essential content you need to present your viewers.
-  //-     a.white(href="/contact") Have a Custom Site Built
-  //- section.section-container#meet
-  //-   h2 Additional Services
-  //-   .box
-  //-     h3.headerbox-red Social Media
-  //-     p Social Media activity is unavoidable in this age. In order to connect and network, social media is necessary. If you need assistance setting up a social media presence on major sites, allow me to setup and optimize your social media sites.
-  //-   .box
-  //-     h3.headerbox-red Logo Design
-  //-     p Logos are an important element of every company branding and design. If you don't have a logo allow me to design a custom logo for your site.
-  //-   .box
-  //-     h3.headerbox-red Photography
-  //-     p Photos are an integral part of life. Websites are no different. If you need high quality photos for your site, consider Sychael updating your photo arsenal.
-  //-     p * Local Chicagoland Area Only
-  //-   .box
-  //-     h3.headerbox-red Video Promo
-  //-     p Videos are always eye-catching. If you do use video though, you should make a good impression. Video has the power to leave an unparallel impression. If you would like video on your site allow me to create one.
-  //-     p * Local Chicagoland Area Only
-  //- section.section-container  
-  //-   p Are You Interested In Building A Website With Sychael?
-  //-     span
-  //-       include ../components/action
-  //- section#contact.page
-  //-   h1.redbox Contact Me
-  //-   .contact-info
-  //-     a(href="tel:16307910269")
-  //-       img.img-icon-phone(src='img/icons/phone.svg' alt="call mobile phone number")
-  //-       a(href="tel:16307910269") 1 (630) 791-0269
-  //-   br
-  //-   .contact-info
-  //-     a(href="mailto:sychael.michael@gmail.com")
-  //-       img.img-icon-phone(src='img/icons/email.svg' alt="send email")
-  //-       a(href="mailto:sychael.michael@gmail.com") sychael.michael@gmail.com
-  //- form(method="post" action="form-submitted.html" role="form")
-  //-   fieldset
-  //-     //- h4 #[span.number 1] Your Info
-  //-     .form-field
-  //-       label(for="name") Full Name
-  //-       input(type="text" name="name" id="name" pattern="[a-zA-Z  ]{2,}[ ]{1}[a-zA-Z]{2,}" title="Please Enter Your First and Last Name" required="required")
-  //-     .form-field
-  //-       label(for="email") Email Address
-  //-       input(type="email" name="email" id="email" pattern="[a-zA-Z0-9.-]{1,30}[@]{1}[a-z0-9]{1,15}[.]{1}[a-z]{2,6}" title="Please Enter Your Email Address" required="required")
-  //-     .form-field
-  //-       label(for="phone") Phone Number
-  //-       input(type="tel" name="phone" id="phone" pattern="[0-9( )-]{10,16}" min="10" max="13" title="Please Enter Your Phone Number" required="required")
-  //-     .form-field
-  //-       label(for="company") Company Name &nbsp;   
-  //-         span *If Applicable
-  //-       input(type="text" id="company" name="company")
-  //-     .form-field
-  //-       label(for="message") Message
-  //-       textarea.scrollbar(name="message" id="message")
-  //-     button(type="submit") Send Message
-  //-   //- fieldset
-  //-     //- h4 #[span.number 2] Your Reason
-  //-     //- .form-field
-  //-     //-   label(for="reason") Choose A Reason
-  //-     //-   select(name="reason" id="reason")
-  //-     //-     optgroup(label="Professional")
-  //-     //-       option(value="hire" id="option") Hire for Work
-  //-     //-     optgroup(label="Personal")
-  //-     //-       option(value="general" id="general") General Message
-  //-     //-       option(value="problem" id="problem") Problem with Site

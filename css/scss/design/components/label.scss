@@ -4,12 +4,15 @@
 }
 .label-container .label {
   display: none;
+  position: relative;
   top: 100%;
   color: $charcoal;
   font-weight: 100;
   position: absolute;
   transition: all .2s ease;
+  margin: -5px 0;
 }
+
 @include breakpoint() {
   .label-container:hover .label {
     display: block;

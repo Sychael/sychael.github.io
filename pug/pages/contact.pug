@@ -4,11 +4,12 @@ block title
   title Contact
   
 block description
-  meta(name="description" content="Contact Website Construction if you have any inquiries, questions or concerns. If you are looking to hire Website Consturction leave a message and go to the Hire page.")
+  meta(name="description" content="Contact Sychael if you have any inquiries, questions or concerns.")
     
 block main
   section.section-container
     h1.redbox Contact Me
+    br
     .button-contact
       .icon-button-contact
         img.icon-contact(src='img/icons/phone.svg' alt="call mobile phone number")
@@ -20,7 +21,7 @@ block main
         img.icon-contact#email(src='img/icons/email.svg' alt="send email")
         .contact-info
           a(href="mailto:sychael.michael@gmail.com") sychael.michael@gmail.com
-  form(method="post" action="form-submittedl" role="form")
+  form(method="post" action="form-submitted.html" role="form")
     fieldset
       //- h4 #[span.number 1] Your Info
       .form-field
@@ -39,7 +40,7 @@ block main
     fieldset
       .form-field
         label(for="message") Message
-        textarea.scrollbar.style-3(name="message" id="message")
+        textarea.scrollbar(name="message" id="message")
       button(type="submit") Send Message
     //-   h4 #[span.number 2] Your Reason
     //-   .form-field

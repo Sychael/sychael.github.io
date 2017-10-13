@@ -159,7 +159,7 @@ h1 {
       font-size: 3.2rem; } }
   @media (min-width: 1150px) {
     h1 {
-      font-size: 3.5rem; } }
+      font-size: 3.8rem; } }
 
 h2 {
   font-size: 1.2rem;
@@ -179,10 +179,10 @@ h2 {
       font-size: 2.5rem; } }
   @media (min-width: 1150px) {
     h2 {
-      font-size: 2.8rem; } }
+      font-size: 3.1rem; } }
 
 h3 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   text-align: center; }
   @media (min-width: 375px) {
@@ -199,7 +199,7 @@ h3 {
       font-size: 2rem; } }
   @media (min-width: 1150px) {
     h3 {
-      font-size: 2.1rem; } }
+      font-size: 2.2rem; } }
 
 h4 {
   font-size: 1rem;
@@ -219,7 +219,7 @@ h4 {
       font-size: 1.5rem; } }
   @media (min-width: 1150px) {
     h4 {
-      font-size: 1.6rem; } }
+      font-size: 1.7rem; } }
 
 a {
   -webkit-transition: all 0.09s ease;
@@ -282,12 +282,10 @@ header {
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
-  -webkit-transition: all 0.09s ease;
-  transition: all 0.09s ease; }
+          align-items: center; }
   @media (min-width: 900px) {
     header {
-      padding: 2.5px 21px; } }
+      padding: 0 21px; } }
 
 .logo-container {
   height: 4em; }
@@ -364,28 +362,33 @@ nav li {
 
 nav a {
   display: block;
-  padding: 18px 18px;
-  font-size: 1.4em;
+  margin: 0;
+  padding: 18px 24px;
+  font-size: 1.55em;
   font-weight: 200;
   color: #F6F6F6; }
   nav a:hover, nav a:focus {
     background-color: rgba(156, 57, 82, 0.9);
     color: #F6F6F6;
-    padding: 18px 24px; }
+    padding: 18px 18px; }
     @media (min-width: 900px) {
       nav a:hover, nav a:focus {
-        background-color: #262626; } }
+        background-color: #262626;
+        border: none;
+        padding: 18px 45px; } }
   @media (min-width: 900px) {
     nav a {
       color: #262626;
       padding: 12px 21px; }
       nav a:hover, nav a:focus {
         padding: 12px 21px; } }
+  nav a:focus {
+    border: 1.5px solid #3B102B; }
 
 header:after {
   content: "";
   display: block;
-  top: 5.4em;
+  top: 5.45em;
   left: 0;
   position: absolute;
   height: 9px;
@@ -437,7 +440,7 @@ footer {
     font-weight: 200; }
   @media (min-width: 411px) {
     .footer-info {
-      font-size: 1.1rem; } }
+      font-size: 1.25rem; } }
   @media (min-width: 900px) {
     .footer-info {
       display: -webkit-box;
@@ -446,7 +449,7 @@ footer {
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
               justify-content: space-between;
-      font-size: 1.2rem; } }
+      font-size: 1.5rem; } }
 
 .footer-nav a {
   font-weight: 200;
@@ -461,7 +464,7 @@ footer {
     outline: none; }
   @media (min-width: 900px) {
     .footer-nav a {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       padding: 0 12px; } }
 
 a.mobile {
@@ -469,7 +472,7 @@ a.mobile {
   font-weight: 200; }
   @media (min-width: 411px) {
     a.mobile {
-      font-size: 1.1rem; } }
+      font-size: 1.25rem; } }
 
 .icons-social-media a {
   display: inline-block;
@@ -483,7 +486,7 @@ a.mobile {
       font-size: 1.15em; } }
   @media (min-width: 768px) {
     .icons-social-media a {
-      font-size: 1.25em; } }
+      font-size: 1.5em; } }
   @media (min-width: 900px) {
     .icons-social-media a {
       margin: 15px 0 0;
@@ -556,11 +559,11 @@ a.mobile {
     right: -5px;
     background-color: rgba(156, 57, 82, 0.9);
     padding: 6px 12px;
-    width: 2.5em;
+    width: 2.6954em;
     vertical-align: middle;
     bottom: 1px; }
   .button-contact #email {
-    width: 2.45em; }
+    height: 2.6em; }
   .button-contact .contact-info {
     position: relative;
     display: inline-block; }
@@ -654,7 +657,7 @@ button {
   background-color: rgba(156, 57, 82, 0.9);
   margin: 9px auto;
   padding: 1em 1.75em;
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: 500;
   color: #F6F6F6;
   -webkit-transition: all 0.09s ease;
@@ -668,13 +671,16 @@ button {
     outline: none; }
   button:active {
     background-color: #262626; }
+  @media (min-width: 900px) {
+    button {
+      font-size: 1.4em; } }
 
 a.button {
   margin: 18px 0;
   background-color: rgba(156, 57, 82, 0.9);
   margin: 9px auto;
   padding: 1em 1.75em;
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: 500;
   color: #F6F6F6;
   -webkit-transition: all 0.09s ease;
@@ -688,6 +694,9 @@ a.button {
     outline: none; }
   a.button:active {
     background-color: #262626; }
+  @media (min-width: 900px) {
+    a.button {
+      font-size: 1.4em; } }
 
 .box {
   display: block;
@@ -793,12 +802,14 @@ a.button {
 
 .label-container .label {
   display: none;
+  position: relative;
   top: 100%;
   color: #262626;
   font-weight: 100;
   position: absolute;
   -webkit-transition: all .2s ease;
-  transition: all .2s ease; }
+  transition: all .2s ease;
+  margin: -5px 0; }
 
 @media (min-width: 900px) {
   .label-container:hover .label {
@@ -808,14 +819,18 @@ p.accordian {
   text-align: center;
   font-size: 5em;
   cursor: pointer;
-  height: .5em; }
+  height: .5em;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
 
 .panel {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
 .display {
-  display: none; }
+  display: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
 
 .modal {
   display: none;
@@ -832,41 +847,52 @@ p.accordian {
   transition: all 0.09s ease; }
 
 .modal-content {
-  position: fixed;
+  position: absolute;
   background-color: #fefefe;
-  margin: 175px 0%;
+  margin: 150px 7.5%;
   padding: 33px;
   border: 3px solid #3B102B;
-  width: 90%;
-  height: 58.7%; }
+  width: 70%;
+  height: 50%;
+  -webkit-transition: all 0.09s ease;
+  transition: all 0.09s ease; }
   .modal-content p {
     text-align: left; }
+  @media (min-width: 375px) {
+    .modal-content {
+      height: 52%;
+      margin: 150px 7.5%; } }
+  @media (min-width: 375px) {
+    .modal-content {
+      height: 58%; } }
+  @media (min-width: 900px) {
+    .modal-content {
+      width: 71%;
+      margin: 150px 12%; } }
 
-/* The Close Button */
 .close {
-  position: fixed;
-  top: 185px;
-  right: 5%;
-  float: right;
+  display: inline-block;
+  position: relative;
+  top: 120px;
+  margin: 0 auto;
   color: #F6F6F6;
-  background-color: #262626;
+  background-color: rgba(156, 57, 82, 0.9);
+  border: 2px solid #3B102B;
   border-radius: 50%;
-  padding: 0px 12px;
-  font-size: 2em;
+  padding: 0px 18px;
+  font-size: 3em;
   font-weight: bold;
   -webkit-transition: all 0.09s ease;
   transition: all 0.09s ease;
   z-index: 5; }
+  .close:hover, .close:focus {
+    color: #F6F6F6;
+    background-color: #9C3952;
+    cursor: pointer; }
   @media (min-width: 900px) {
     .close {
-      font-size: 2.5em;
-      padding: 0px 15px; } }
-
-.close:hover,
-.close:focus {
-  color: #F6F6F6;
-  background-color: rgba(156, 57, 82, 0.9);
-  cursor: pointer; }
+      font-size: 3.5em;
+      padding: 0px 21px; } }
 
 .box img {
   position: relative;
@@ -888,8 +914,12 @@ h2.index {
 img.box-port {
   width: 19em; }
 
-#meet {
-  background-color: rgba(246, 246, 246, 0.99); }
+.hero {
+  background-image: url("/img/photos/Sychael Sites.jpg");
+  background-position: 0 99px;
+  background-size: 113%;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
 
 img.profile {
   display: block;

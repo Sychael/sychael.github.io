@@ -19,9 +19,8 @@ header {
   padding: $amount-medium $amount-wide;
   justify-content: space-between;
   align-items: center;
-  transition: transition();
   @include breakpoint() {
-    padding: 2.5px $amount-wide;
+    padding: 0 $amount-wide;
   }
 }
 
@@ -100,17 +99,20 @@ nav {
   }
   a {
     display: block;
-    padding: $amount-large $amount-large;
-    font-size: 1.4em;
+    margin: $amount-none;
+    padding: $amount-large $amount-open;
+    font-size: 1.55em;
     font-weight: 200;
     // text-transform: uppercase;
     color: $white;
     &:hover, &:focus {
       background-color: $wine-trans;
       color: $white;
-      padding: $amount-large $amount-open;
+      padding: $amount-large $amount-large;
       @include breakpoint() {
         background-color: $charcoal;
+        border: none;
+        padding: $amount-large $amount-enormous;
       }
     }
     @include breakpoint() {
@@ -120,6 +122,9 @@ nav {
         padding: $amount-medium $amount-wide;
         }
     }
+    &:focus {
+      border: 1.5px solid $wine-border;
+    }
   }
 }
 
@@ -127,7 +132,7 @@ header {
   &:after {
     content: "";
     display: block;
-    top: 5.4em;
+    top: 5.45em;
     left: 0;
     position: absolute;
     height: 9px;
