@@ -783,6 +783,14 @@
 		"oF": 2,
 		"oS": 0
 		},
+	"\/pug\/pages\/error-pages\/403.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/pug\/pages\/error-pages\/403.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/pug\/pages\/error-pages\/404.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -886,17 +894,6 @@
 		"oA": 2,
 		"oAP": "\/services.html",
 		"oF": 0
-		},
-	"\/Sychael Logo.png": {
-		"ft": 32768,
-		"iS": 8763,
-		"oA": 0,
-		"oAP": "\/Sychael Logo.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
 		}
 	},
 "hooks": [

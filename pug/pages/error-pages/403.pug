@@ -1,0 +1,16 @@
+include ../../sections/head
+
+block title
+  title Page Doesn't Exist | 404
+  
+block description
+  meta(name="description" content="Sorry, the page you searched for doesn't exist.")
+
+html
+  body
+    #error-wrapper
+      h1.redbox Page Doesn't Exist
+      p Sorry, the page you searched for doesn't exist.
+      p Return 
+        a(href='index.html') Home 
+        | or #[a(href="contact.html") Report Issue.]
