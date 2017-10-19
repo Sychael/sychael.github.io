@@ -440,7 +440,7 @@ footer {
     font-weight: 200; }
   @media (min-width: 411px) {
     .footer-info {
-      font-size: 1.25rem; } }
+      font-size: 1.15rem; } }
   @media (min-width: 900px) {
     .footer-info {
       display: -webkit-box;
@@ -449,7 +449,7 @@ footer {
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
               justify-content: space-between;
-      font-size: 1.5rem; } }
+      font-size: 1.25rem; } }
 
 .footer-nav a {
   font-weight: 200;
@@ -464,7 +464,7 @@ footer {
     outline: none; }
   @media (min-width: 900px) {
     .footer-nav a {
-      font-size: 1.5rem;
+      font-size: 1.25rem;
       padding: 0 12px; } }
 
 a.mobile {
@@ -472,7 +472,7 @@ a.mobile {
   font-weight: 200; }
   @media (min-width: 411px) {
     a.mobile {
-      font-size: 1.25rem; } }
+      font-size: 1.15rem; } }
 
 .icons-social-media a {
   display: inline-block;
@@ -490,7 +490,7 @@ a.mobile {
   @media (min-width: 900px) {
     .icons-social-media a {
       margin: 15px 0 0;
-      width: 2.5em; } }
+      width: 2em; } }
   .icons-social-media a:focus {
     -webkit-transform: scale(1.03);
             transform: scale(1.03);
@@ -566,7 +566,7 @@ a.mobile {
       font-weight: 500; }
     .button-contact .contact-info a:hover, .button-contact .contact-info a:focus {
       cursor: pointer;
-      background-color: #353535; }
+      background-color: rgba(156, 57, 82, 0.9); }
 
 .portfolio figcaption {
   padding: 24px 12px; }
