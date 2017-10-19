@@ -787,8 +787,8 @@
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/pug\/pages\/error-pages\/403.html",
-		"oF": 0,
+		"oAP": "\/403.html",
+		"oF": 2,
 		"oS": 0
 		},
 	"\/pug\/pages\/error-pages\/404.pug": {
