@@ -601,10 +601,10 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/index.html": {
+	"\/index": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/index.html",
+		"oAP": "\/index",
 		"oF": 0
 		},
 	"\/js\/apps\/accordianOpen.js": {
