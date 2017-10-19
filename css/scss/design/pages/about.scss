@@ -23,7 +23,7 @@ article.bio-pic {
 p.bio {
   text-align: center;
   @include breakpoint() {
-    max-width: 930px;
+    max-width: 920px;
     text-align: left;
   };
 }

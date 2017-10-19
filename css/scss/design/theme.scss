@@ -34,14 +34,14 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 800;
   text-align: center;
   @include breakpoint($breakpoint-devices-medium-cell) {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   @include breakpoint($breakpoint-devices-large-cell) {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
   @include breakpoint($breakpoint-devices-tablet) {
     font-size: 2rem;
@@ -115,7 +115,7 @@ p {
 }
 
 strong {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /// IMAGES ///

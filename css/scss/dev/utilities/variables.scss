@@ -1,7 +1,7 @@
 /// FONTS ////
 
-  $font-heading: "Raleway", sans-serif;
-  $font-primary: "Montserrat", sans-serif;
+  $font-heading: "Raleway", "sans-serif";
+  $font-primary: "Montserrat", "sans-serif";
 
 
 /// COLORS ///
@@ -31,7 +31,7 @@
       /// WHITE
       $white-pure: lighten($white, 6%);
       $white-original: $white;
-      $white-slush: darken($white, 3%);
+      $white-slush: darken($white, 2%);
       $white-dirt: darken($white, 6%);
       $white-polluted: darken($white, 9%);
       // WHITE-OPACITY

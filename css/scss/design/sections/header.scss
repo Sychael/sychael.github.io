@@ -2,7 +2,7 @@
 
 @if($top-color-bar == true) {
     .top-bar {
-      background: $wine;
+      background: $wine-trans;
       height: $amount-average;
       top: -$amount-small;
       position: sticky;
@@ -21,6 +21,12 @@ header {
   align-items: center;
   @include breakpoint() {
     padding: 0 $amount-wide;
+  }
+  &::before {
+    background-color: $wine;
+    width: 100%;
+    height: 500px;
+    z-index: 7;
   }
 }
 
@@ -56,7 +62,7 @@ img.hamburger-menu {
 
 nav {
   .reveal {
-    top: -350px;
+    top: -500px;
     padding: 0;
     transition: all .3s ease;
     @include breakpoint() {
@@ -103,7 +109,6 @@ nav {
     padding: $amount-large $amount-open;
     font-size: 1.55em;
     font-weight: 200;
-    // text-transform: uppercase;
     color: $white;
     &:hover, &:focus {
       background-color: $wine-trans;

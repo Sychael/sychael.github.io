@@ -1,35 +1,24 @@
+.contact-button {
+  margin: $amount-median $amount-none;
+}
 .button-contact {
   display: inline-block;
-  margin: $amount-small;
+  margin: $amount-narrow $amount-none;
+  background-color: $charcoal;
   transition: transition();
-  .icon-contact {
-    display: inline-block;
-    position: relative;
-    right: -5px;
-    background-color: $wine-trans;
-    padding: $amount-small $amount-medium;
-    width: 2.6954em;
-    vertical-align: middle;
-    bottom: 1px;
-  }
-  #email {
-    height: 2.6em;
-  }
   .contact-info {
-    position: relative;
-    display: inline-block;
     a {
+      display: inline-block;
+      padding: $amount-median $amount-superlarge;
       color: $white;
-      font-weight: 500;
-      background-color: $charcoal;
-      padding: 16px $amount-large;
+      font-weight: 200;
+      span {
+        font-weight: 500;
+      }
       &:hover, &:focus {
+        cursor: pointer;
         background-color: $charcoal-lighter;
       }
     }
   }
-}
-
-.button-contact:hover, .icon-contact {
-  right: -5;
 }
