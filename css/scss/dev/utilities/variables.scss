@@ -8,6 +8,7 @@
 
   $transparent: rgba(0,0,0,0);
   $wine: #9C3952;
+  $turqouise: #337289;
   $white: #F6F6F6;
   $charcoal: #262626;
 
@@ -27,12 +28,16 @@
       // WINE-OPACITY
       $wine-trans: rgba($wine, .9);
 
+      /// TURQOUISE
+      $turqouise-light: lighten($turqouise, 12%);
+      $turqouise-original: #337289;
+
 
       /// WHITE
       $white-pure: lighten($white, 6%);
       $white-original: $white;
-      $white-slush: darken($white, 2%);
-      $white-dirt: darken($white, 6%);
+      $white-taint: darken($white, 3%);
+      $white-slush: darken($white, 6%);
       $white-polluted: darken($white, 9%);
       // WHITE-OPACITY
       $white-fade: rgba($white, .99);
@@ -53,7 +58,6 @@
 
 
 /// AMOUNTS ///
-
   $amount-none: 0;
   $amount-narrow: 3px;
   $amount-small: 6px;

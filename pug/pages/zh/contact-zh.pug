@@ -1,47 +1,46 @@
-extends ../layout
+extends ../../layout-zh
 
 block title
-  title #{sychael} Contact
-
+  title 联系
 block description
-  meta(name="description" content="Contact Sychael if you have any inquiries, questions or concerns.")
+  meta(name="description" content="如果您有任何疑问，问题或疑虑，请联系我.")
 
 block main
   section.section-container
-    h1.redbox Contact Me
+    h1.redbox 联系我
     .contact-button
       .button-contact
         .contact-info
           a(href="tel:16307910269") 1 (630) 791-0269&nbsp;
-            span.mobile-hide |&nbsp; Call
+            span.mobile-hide |&nbsp; 呼叫
       br
       .button-contact
         .contact-info
           a(href="mailto:sychael.michael@gmail.com") sychael.michael@gmail.com&nbsp;
-            span.mobile-hide |&nbsp; Email
+            span.mobile-hide |&nbsp; 电邮
   form(method="post" action="https://formspree.io/mlwneyjx" role="form")
 
     input(type="hidden" name="_next" value="form-submitted.html")
     fieldset
       //- h4 #[span.number 1] Your Info
       .form-field
-        label(for="name") Full Name
+        label(for="name") 全名
         input(type="text" name="name" id="name" pattern="[a-zA-Z  ]{2,}[ ]{1}[a-zA-Z]{2,}" title="Please Enter Your First and Last Name" required="required")
       .form-field
-        label(for="email") Email Address
+        label(for="email") 电子邮件地址
         input(type="email" name="email" id="email" pattern="[a-zA-Z0-9.-]{1,30}[@]{1}[a-z0-9]{1,15}[.]{1}[a-z]{2,6}" title="Please Enter Your Email Address" required="required")
       .form-field
-        label(for="phone") Phone Number
+        label(for="phone") 电话号码
         input(type="tel" name="phone" id="phone" pattern="[0-9( )-]{10,16}" min="10" max="13" title="Please Enter Your Phone Number" required="required")
       .form-field
-        label(for="company") Company Name &nbsp;
-          span *If Applicable
+        label(for="company") 公司名 &nbsp;
+          span *如果适用
         input(type="text" id="company" name="company")
     fieldset
       .form-field
-        label(for="message") Message
+        label(for="message") 信息
         textarea.scrollbar(name="message" id="message")
-      button(type="submit") Send Message
+      button(type="submit") 发信息
     //-   h4 #[span.number 2] Your Reason
     //-   .form-field
     //-     label(for="reason") Choose A Reason

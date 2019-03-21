@@ -2,7 +2,4 @@ ul.reveal
   each pageLink, pageName in navLink
     li
       block pages
-      if filename.replace('.pug', '.html').indexOf(pageLink) > 0
-        a.active-nav-link= pageName
-      else
         a(href=pageLink)= pageName

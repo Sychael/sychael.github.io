@@ -19,7 +19,7 @@
   @mixin transform($transform) {
     transform: $transform;
   }
-    @mixin transform-scale($type: scale, $amount: 1.03) {
+    @mixin transform-scale($type: scale, $amount: 1.02) {
       @include transform(scale($amount));
     }
 
@@ -47,20 +47,19 @@
 
     @mixin button {
       @content;
-      background-color: $wine-trans;
-      margin: $amount-average auto;
-      padding: 1em 1.75em;
-      font-size: 1.2em;
+      background-color: $wine;
+      margin: $amount-median auto;
+      padding: .6em 1.5em;
       font-weight: 500;
       color: $white;
       transition: transition();
       border: 1.5px $wine-border solid;
       &:hover {
-        background-color: $wine;
+        background-color: $wine-darken;
       }
       &:focus {
         padding: 1em 1.75em;
-        background-color: $wine;
+        background-color: $wine-darken;
         outline: none;
       }
       &:active {
@@ -84,7 +83,7 @@
 
 /// THEME FEATURES ///
 
-    @mixin syrchael() {
+    @mixin sychael() {
       background-color: $wine-light;
       border-radius: 100%;
       margin-right: 9px;

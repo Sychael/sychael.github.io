@@ -32,7 +32,7 @@
 
 @-webkit-keyframes fade-in {
   from {
-    margin-top: 9px;
+    margin-top: -9px;
     opacity: 0; }
   to {
     margin-top: 0px;
@@ -40,7 +40,7 @@
 
 @keyframes fade-in {
   from {
-    margin-top: 9px;
+    margin-top: -9px;
     opacity: 0; }
   to {
     margin-top: 0px;
@@ -75,6 +75,9 @@ a, span, figcaption, button, input, option, ::-webkit-input-placeholder {
   font-family: "Montserrat", "sans-serif"; }
 
 a, span, figcaption, button, input, option, :-ms-input-placeholder {
+  font-family: "Montserrat", "sans-serif"; }
+
+a, span, figcaption, button, input, option, ::-ms-input-placeholder {
   font-family: "Montserrat", "sans-serif"; }
 
 a, span, figcaption, button, input, option, ::placeholder {
@@ -401,13 +404,13 @@ header:after {
   transition: all 0.09s ease; }
 
 main {
-  background-color: #f1f1f1;
+  background-color: #e7e7e7;
   min-height: 65vh;
   -webkit-animation: fade-in 0.9s ease;
           animation: fade-in 0.9s ease; }
 
 .main-container {
-  padding: 9px 0; }
+  padding: 15px 0 0; }
 
 section.backgound-white {
   background: #F6F6F6; }
@@ -492,13 +495,13 @@ a.mobile {
       margin: 15px 0 0;
       width: 2em; } }
   .icons-social-media a:focus {
-    -webkit-transform: scale(1.03);
-            transform: scale(1.03);
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
     outline: none; }
 
 .icons-social-media :hover {
-  -webkit-transform: scale(1.03);
-          transform: scale(1.03); }
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02); }
 
 .loader-container {
   background-color: #F6F6F6;
@@ -644,20 +647,19 @@ select {
 
 button {
   display: block;
-  background-color: rgba(156, 57, 82, 0.9);
-  margin: 9px auto;
-  padding: 1em 1.75em;
-  font-size: 1.2em;
+  background-color: #9C3952;
+  margin: 15px auto;
+  padding: .6em 1.5em;
   font-weight: 500;
   color: #F6F6F6;
   -webkit-transition: all 0.09s ease;
   transition: all 0.09s ease;
   border: 1.5px #3B102B solid; }
   button:hover {
-    background-color: #9C3952; }
+    background-color: #91354c; }
   button:focus {
     padding: 1em 1.75em;
-    background-color: #9C3952;
+    background-color: #91354c;
     outline: none; }
   button:active {
     background-color: #262626; }
@@ -667,20 +669,19 @@ button {
 
 a.button {
   margin: 18px 0;
-  background-color: rgba(156, 57, 82, 0.9);
-  margin: 9px auto;
-  padding: 1em 1.75em;
-  font-size: 1.2em;
+  background-color: #9C3952;
+  margin: 15px auto;
+  padding: .6em 1.5em;
   font-weight: 500;
   color: #F6F6F6;
   -webkit-transition: all 0.09s ease;
   transition: all 0.09s ease;
   border: 1.5px #3B102B solid; }
   a.button:hover {
-    background-color: #9C3952; }
+    background-color: #91354c; }
   a.button:focus {
     padding: 1em 1.75em;
-    background-color: #9C3952;
+    background-color: #91354c;
     outline: none; }
   a.button:active {
     background-color: #262626; }
@@ -709,12 +710,12 @@ a.button {
     .box {
       display: inline-block;
       min-width: 17em;
-      width: 30%;
+      width: 50%;
       margin: 12px;
       -webkit-transition: all 0.09s ease;
       transition: all 0.09s ease; }
       .box.hover {
-        opacity: .9; }
+        opacity: .85; }
         .box.hover:hover {
           opacity: 1; } }
     @media (min-width: 900px) and (min-width: 1150px) {
@@ -795,6 +796,7 @@ a.button {
   position: relative;
   top: 100%;
   color: #262626;
+  font-size: .9em;
   font-weight: 100;
   position: absolute;
   -webkit-transition: all .2s ease;

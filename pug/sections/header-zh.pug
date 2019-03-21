@@ -1,0 +1,11 @@
+block pages
+  - var navLink = {'首页' : '/index-zh.html', '关于' : '/about-zh.html', '服务' : '/services-zh.html', '联系' : '/contact-zh.html'};
+
+.top-bar(role="decoration")
+header
+  .logo-container
+    a(href="index-zh.html")
+      img.logo.animate(src="img/logo/sychael-chinese-logo.svg" alt="商标")
+  nav
+    img.hamburger-menu.animate(src="img/menu/menu-hamburger.svg" alt="导航菜单")
+    include ../components/nav

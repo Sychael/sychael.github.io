@@ -19,11 +19,11 @@
   @include breakpoint() {
     display: inline-block;
     min-width: 17em;
-    width: 30%;
+    width: 50%;
     margin: $amount-medium;
     transition: transition();
     &.hover {
-      opacity: .9;
+      opacity: .85;
       &:hover {
         opacity: 1;
       }

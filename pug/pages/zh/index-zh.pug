@@ -1,43 +1,41 @@
-extends ../layout
+extends ../../layout-zh
 
 block title
-  title Sychael Web Development
+  title 循环网页设计和开发
 block description
-  meta(name="description" content="Delivering Personally Professional Websites and Communicating Your Message On the Web Affordably.")
+  meta(name="description" content="提供个人专业网站，并在网上传播您的信息经济实惠.")
 
 block main
   section.section-container.principal.hero(role="complementary")
-    h1.redbox Personally Professional 
-      span.mobile-hide Websites
-    h2 Communicating Your Personal&nbsp;Vision
-      br
-      | Professionally &amp; Affordably
+    h1.redbox 个人  |  专业
+      span.mobile-hide 网页
+    h2 以专业和经济的方式传达您的个人信息。
     p
-      strong I Build Functional, Clean, Essential Websites, So You Can Share Your Vision Effectively on The Web.
-    include ../components/action
+      strong 我建立功能，干净，基本的网站，所以你可以在网上有效地分享你的愿景
+    include ../../components/action-zh
   section.section-container.backgound-white(role="complementary")
-    h2 Meet the Developer
+    h2 认识开发者
     .box-wrap
       figure
         a.box.no-padding(href="about.html")
-          figcaption.headerbox-red Michael Lawinger
+          figcaption.headerbox-red 朱文凯
           img.box-img(src="img/logo/person-logo.svg" alt="The Builder of Sychael")
-  section.section-container.portfolio
-    h2 View Sychael Sites
-    h3 Explore Websites Built By Sychael
+  section.portfolio
+    h2 查看网站
+    h3 探索由我建立的网站
     figure
-      a.box.hover(href="http://www.advantageroofcleaning.com" target="_blank")
-        figcaption Advantage Roof Cleaning
+      a.box.hover(href="http://www.advantageroofcleaning.com")
+        figcaption 优势屋顶清洁
         img.logo-client(src="img/logo/sites/advantage.svg" alt="Advantage Roof Cleaning Website Link")
     figure
       a.box.hover(href="https://www.theleadonemovement.com" target="_blank")
-        figcaption Lead One Movement
+        figcaption 引领运动
         img.logo-client(src="img/logo/sites/leadone.svg" alt="Lead One Movement Website Link")
     figure
       a.box.hover(href="https://www.dominicanadvance.org" target="_blank")
-        figcaption Dominican Advance
+        figcaption 多米尼加进步
         img.logo-client(src="img/logo/sites/dalogo.svg" alt="Dominican Advance Website Link")
     figure
       a.box.hover(href="https://www.supportpiclife.org" target="_blank")
-        figcaption Pregnancy Info Center
+        figcaption 怀孕信息中心
         img.logo-client(src="img/logo/sites/pic.svg" alt="Pregnancy Information Center Website Link")

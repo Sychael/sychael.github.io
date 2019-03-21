@@ -1,0 +1,20 @@
+include ../components/tooltips
+
+block footer
+footer
+  .footer-info
+    .copyright
+      p &copy; 循环站 #[span.dateYear]
+    .footer-nav
+      a.modalPopup(tabindex= 0) 条款和条件
+      a(href="index.html") 英语 | English
+  include ../components/modal-zh
+  .icons-social-media.tooltip
+    +img_icon-social("https://github.com/Sychael", "github", "帐心", "GitHub Icon")
+    +img_icon-social("https://codepen.io/Sychael/", "codepen", "码笔", "Codepen Icon")
+    +img_icon-social("https://www.facebook.com/sychaelsites", "facebook", "面书",  "Facebook Icon")
+    +img_icon-social("https://twitter.com/sychaellawinger", "twitter", "推特", "Twitter Icon")
+    +img_icon-social("https://www.linkedin.com/in/michael-lawinger-83112a1a", "linkedin", "链里", "LinkedIn Icon")
+    +img_icon-social("https://vimeo.com/user19860207", "vimeo", "视频", "Vimeo Icon")
+    +img_icon-social("https://plus.google.com/102980324283872428489", "google-plus", "谷歌加", "Google Plus Icon")
+  a.mobile(href="#page-top")

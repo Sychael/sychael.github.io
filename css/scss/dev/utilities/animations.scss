@@ -17,6 +17,10 @@
 }
 
 @keyframes fade-in {
-  from{ margin-top: 9px; opacity:0 }
-  to{ margin-top: 0px; opacity:1 }
+  from {
+    margin-top: -9px; opacity: 0
+   }
+  to {
+    margin-top: 0px; opacity: 1
+  }
 }
