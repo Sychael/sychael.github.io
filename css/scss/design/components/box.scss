@@ -31,7 +31,7 @@
     margin: $amount-medium;
     transition: transition();
     &.hover {
-      min-width: 25em;
+      min-width: 24.6em;
       opacity: 1;
   @include breakpoint($breakpoint-devices-desktop) {
     opacity: .9;

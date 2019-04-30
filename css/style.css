@@ -705,7 +705,7 @@ a.button {
       -webkit-transition: all 0.09s ease;
       transition: all 0.09s ease; }
       .box.hover {
-        min-width: 25em;
+        min-width: 24.6em;
         opacity: 1; } }
     @media (min-width: 900px) and (min-width: 1150px) {
       .box.hover {
