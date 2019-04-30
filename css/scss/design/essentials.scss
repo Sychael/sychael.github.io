@@ -14,6 +14,7 @@ body {
 /// TEXT ELEMENTS ///
 
 h1, h2, h3, h4 {
+  line-height: 1;
 	margin: $amount-large $amount-large;
   font-family: $font-heading;
 	transition: transition();

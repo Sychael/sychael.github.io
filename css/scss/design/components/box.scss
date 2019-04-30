@@ -14,6 +14,9 @@
     @include breakpoint() {
       height: 371px;
     }
+    @include breakpoint($breakpoint-devices-main) {
+      height: 362px;
+    }
   }
   &:focus {
     border: $amount-small $wine solid;
@@ -28,12 +31,14 @@
     margin: $amount-medium;
     transition: transition();
     &.hover {
-      opacity: .9;
-      &:hover {
-        opacity: 1;
-      }
+      min-width: 25em;
+      opacity: 1;
   @include breakpoint($breakpoint-devices-desktop) {
+    opacity: .9;
     min-width: 30em;
+      &:hover {
+      opacity: 1;
+    }
       }
     }
   }
@@ -91,9 +96,6 @@
   font-size: 2em;
   @include breakpoint($breakpoint-devices-tablet) {
     font-size: 3em;
-  }
-  @include breakpoint() {
-    display: none;
   }
 }
 

@@ -22,3 +22,10 @@
     }
   }
 }
+
+a.add-button {
+  &:hover, &:focus {
+    background-color: $wine-darken;
+    padding: $amount-medium 31.1%;
+  }
+}
