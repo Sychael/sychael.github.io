@@ -8,7 +8,12 @@
   width: 100%;
   vertical-align: top;
   &.no-padding {
+    width: 282px;
     padding: $amount-none;
+    background-color: black;
+    @include breakpoint() {
+      height: 371px;
+    }
   }
   &:focus {
     border: $amount-small $wine solid;
@@ -18,22 +23,26 @@
   }
   @include breakpoint() {
     display: inline-block;
-    min-width: 17em;
+    min-width: 25em;
     width: 50%;
     margin: $amount-medium;
     transition: transition();
     &.hover {
-      opacity: .85;
+      opacity: .9;
       &:hover {
         opacity: 1;
       }
   @include breakpoint($breakpoint-devices-desktop) {
-    min-width: 22em;
+    min-width: 30em;
       }
     }
   }
   img {
     padding: $amount-none;
+    width: 13em;
+    &.profile-pic {
+      width: 100%;
+    }
     &.logo-client {
       padding: $amount-large $amount-none;
     }
@@ -49,7 +58,7 @@
     color: $white;
     font-size: 1em;
     font-weight: 300;
-    text-align: left;
+    text-align: center;
     @include breakpoint($breakpoint-devices-large-cell) {
       font-size: 1.25em;
     }
@@ -66,11 +75,25 @@
     font-size: 1.2em;
     transition: transition();
     @include breakpoint() {
-      font-size: 1em;
+      font-size: 1.3em;
     }
     @include breakpoint($breakpoint-devices-desktop) {
-      font-size: 1.4em;
+      font-size: 1.6em;
     }
+  }
+}
+
+.blackbox {
+  background-color: $charcoal;
+  margin: $amount-none $amount-none;
+  padding: $amount-medium $amount-medium;
+  color: $white;
+  font-size: 2em;
+  @include breakpoint($breakpoint-devices-tablet) {
+    font-size: 3em;
+  }
+  @include breakpoint() {
+    display: none;
   }
 }
 
@@ -79,7 +102,7 @@
   margin: $amount-small $amount-none;
   padding: $amount-medium $amount-medium;
   color: $white;
-  border: 2px $wine-border solid;
+
   transition: transition-medium();
   &::selection, span::selection {
     background-color: $charcoal;
@@ -94,7 +117,7 @@
 
 .headerbox-red {
   padding: $amount-large;
-  background-color: $wine-trans;
+  background-color: $wine-light-trans;
   margin: $amount-none $amount-none $amount-large $amount-none;
   color: $white;
   &::selection {

@@ -14,7 +14,7 @@ footer {
 
   .footer-info {
     p {
-      font-weight: 300;
+      font-weight: 500;
     }
     margin: $amount-none auto;
     padding: $amount-none $amount-superlarge;
@@ -30,7 +30,7 @@ footer {
   }
 
   .footer-nav a {
-    font-weight: 300;
+    font-weight: 500;
     display: inline-block;
     padding: $amount-average $amount-small $amount-none;
     transition: transition();

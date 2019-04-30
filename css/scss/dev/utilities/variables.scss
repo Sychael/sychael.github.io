@@ -7,50 +7,51 @@
 /// COLORS ///
 
   $transparent: rgba(0,0,0,0);
-  $wine: #9C3952;
-  $turqouise: #337289;
-  $white: #F6F6F6;
-  $charcoal: #262626;
+  $color-primary: #9C3952;
+  $color-secondary: #337289;
+  $color-light: #F6F6F6;
+  $color-dark: #262626;
 
       /// WINE
-      $wine-wash: lighten($wine, 43%);
-      $wine-brightest: lighten($wine, 18%);
-      $wine-bright: lighten($wine, 15%);
-      $wine-lightest: lighten($wine, 9%);
-      $wine-light: lighten($wine, 6%);
-      $wine-lighten: lighten($wine, 3%);
-      $wine-original: $wine;
-      $wine-darken: darken($wine, 3%);
-      $wine-dark: darken($wine, 6%);
-      $wine-darkest: darken($wine, 9%);
+      $wine-wash: lighten($color-primary, 43%);
+      $wine-brightest: lighten($color-primary, 18%);
+      $wine-bright: lighten($color-primary, 15%);
+      $wine-lightest: lighten($color-primary, 9%);
+      $wine-light: lighten($color-primary, 6%);
+      $wine-lighten: lighten($color-primary, 3%);
+      $wine: $color-primary;
+      $wine-darken: darken($color-primary, 3%);
+      $wine-dark: darken($color-primary, 6%);
+      $wine-darkest: darken($color-primary, 9%);
       // DARK WINE : BORDERS
       $wine-border: #3B102B;
       // WINE-OPACITY
-      $wine-trans: rgba($wine, .9);
+      $wine-trans: rgba($wine-darken, .9);
+      $wine-light-trans: rgba($wine-lightest, .7);
 
       /// TURQOUISE
-      $turqouise-light: lighten($turqouise, 12%);
-      $turqouise-original: #337289;
+      $turqouise-light: lighten($color-secondary, 12%);
+      $turqouise: #337289;
 
 
       /// WHITE
-      $white-pure: lighten($white, 6%);
-      $white-original: $white;
-      $white-taint: darken($white, 3%);
-      $white-slush: darken($white, 6%);
-      $white-polluted: darken($white, 9%);
+      $white-pure: lighten($color-light, 6%);
+      $white: $color-light;
+      $white-taint: darken($color-light, 3%);
+      $white-slush: darken($color-light, 6%);
+      $white-polluted: darken($color-light, 9%);
       // WHITE-OPACITY
       $white-fade: rgba($white, .99);
       $white-trans: rgba($white, .9);
       $white-transp: rgba($white, .8);
 
       /// CHARCOAL
-      $charcoal-lightest: lighten($charcoal, 25%);
-      $charcoal-bright: lighten($charcoal, 12%);
-      $charcoal-lighter: lighten($charcoal, 6%);
-      $charcoal-light: lighten($charcoal, 3%);
-      $charcoal-original: $charcoal;
-      $charcoal-pure: darken($charcoal, 6%);
+      $charcoal-lightest: lighten($color-dark, 25%);
+      $charcoal-bright: lighten($color-dark, 12%);
+      $charcoal-lighter: lighten($color-dark, 6%);
+      $charcoal-light: lighten($color-dark, 3%);
+      $charcoal: $color-dark;
+      $charcoal-pure: darken($color-dark, 6%);
       // CHARCOAL-OPACITY
       $charcoal-opaq: rgba($charcoal-pure, .95);
       $charcoal-transl: rgba($charcoal-pure, .7);

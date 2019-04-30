@@ -1,7 +1,7 @@
 extends ../../layout-zh
 
 block title
-  title 联系
+  title #{sychaelZh} 联系
 block description
   meta(name="description" content="如果您有任何疑问，问题或疑虑，请联系我.")
 
@@ -18,14 +18,16 @@ block main
         .contact-info
           a(href="mailto:sychael.michael@gmail.com") sychael.michael@gmail.com&nbsp;
             span.mobile-hide |&nbsp; 电邮
-  form(method="post" action="https://formspree.io/mlwneyjx" role="form")
-
-    input(type="hidden" name="_next" value="form-submitted.html")
+  form(action="https://formspree.io/mlppjaam" method="POST")
+    input(type="hidden" name="_next" value="http://www.sychael.com/form-submitted-zh.html")
+    .hpot
+      label 将此字段留空:
+        input(name="_gotcha")
     fieldset
       //- h4 #[span.number 1] Your Info
       .form-field
         label(for="name") 全名
-        input(type="text" name="name" id="name" pattern="[a-zA-Z  ]{2,}[ ]{1}[a-zA-Z]{2,}" title="Please Enter Your First and Last Name" required="required")
+        input(type="text" name="name" id="name"  title="Please Enter Your First and Last Name" required="required")
       .form-field
         label(for="email") 电子邮件地址
         input(type="email" name="email" id="email" pattern="[a-zA-Z0-9.-]{1,30}[@]{1}[a-z0-9]{1,15}[.]{1}[a-z]{2,6}" title="Please Enter Your Email Address" required="required")

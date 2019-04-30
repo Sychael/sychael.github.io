@@ -28,14 +28,14 @@ label {
 input,
 textarea {
   background-color: $white;
-  border: 1px $white-polluted solid;
+  border: 1.5px $white-polluted solid;
   padding: $amount-average $amount-medium;
   margin: 10px auto;
   font-size: 1.05em;
   width: 100%;
   transition: transition();
   &:focus {
-    border: $charcoal $amount-narrow solid;
+    border: $charcoal 1.5px solid;
     outline: none;
     padding: $amount-average $amount-medium;
     margin: 9px auto;
@@ -45,6 +45,10 @@ textarea {
       color: $white;
     }
   }
+}
+
+.hpot {
+  display: none;
 }
 
 input {

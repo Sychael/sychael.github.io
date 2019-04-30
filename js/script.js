@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   loadScript('js/apps/firstTimeAnimation.js');
   loadScript('js/apps/loader.js');
   loadScript('/js/apps/navDropdown.js');
+  loadScript('js/apps/navActiveClassAdder.js')
   loadScript('js/apps/accordianOpen.js');
   loadScript('/js/apps/footerDate.js');
   loadScript('js/apps/modal.js')

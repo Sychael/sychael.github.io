@@ -14,7 +14,7 @@ body {
 /// TEXT ELEMENTS ///
 
 h1, h2, h3, h4 {
-	margin: $amount-large $amount-large
+	margin: $amount-large $amount-large;
   font-family: $font-heading;
 	transition: transition();
 }
@@ -28,6 +28,7 @@ a,
 select:hover,
 button {
   cursor: pointer;
+  border: none;
 }
 
 a, span, figcaption, button, input, option, ::placeholder {

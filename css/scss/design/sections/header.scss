@@ -70,7 +70,6 @@ nav {
     }
   .active-nav-link {
     background-color: $wine-trans;
-    border: 1.5px solid $wine-border;
     color: $white;
     font-weight: 400;
   }
@@ -94,7 +93,7 @@ nav {
     &:hover {
       background: $wine-trans;
       @include breakpoint() {
-        background: $charcoal-lighter;
+        background: $charcoal-light;
       }
     }
     :focus {
@@ -108,8 +107,12 @@ nav {
     margin: $amount-none;
     padding: $amount-large $amount-open;
     font-size: 1.55em;
-    font-weight: 300;
+    font-weight: 500;
     color: $white;
+    &.nav-li-zh {
+      font-size: 1.4em;
+      font-weight: 500;
+    }
     &:hover, &:focus {
       background-color: $wine-trans;
       color: $white;
@@ -137,7 +140,7 @@ header {
   &:after {
     content: "";
     display: block;
-    top: 5.45em;
+    top: 5.35em;
     left: 0;
     position: absolute;
     height: 9px;

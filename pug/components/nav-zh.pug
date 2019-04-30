@@ -1,0 +1,5 @@
+ul.reveal
+  each pageLink, pageName in navLink
+    li
+      block pages
+        a.nav-li-zh(href=pageLink class=(filename.replace('.pug', '.html').indexOf(pageLink) > 0 ? 'active-nav-link' : ''))= pageName
