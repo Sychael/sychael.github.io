@@ -338,263 +338,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/css/scss/dev/.sass-cache/18ffd0a9ed26c2f0cf4177618e4921877f6f281a/accordian.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/18ffd0a9ed26c2f0cf4177618e4921877f6f281a/accordian.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/18ffd0a9ed26c2f0cf4177618e4921877f6f281a/action.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/18ffd0a9ed26c2f0cf4177618e4921877f6f281a/action.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/18ffd0a9ed26c2f0cf4177618e4921877f6f281a/box.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/18ffd0a9ed26c2f0cf4177618e4921877f6f281a/box.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/18ffd0a9ed26c2f0cf4177618e4921877f6f281a/button.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/18ffd0a9ed26c2f0cf4177618e4921877f6f281a/button.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/18ffd0a9ed26c2f0cf4177618e4921877f6f281a/form.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/18ffd0a9ed26c2f0cf4177618e4921877f6f281a/form.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/18ffd0a9ed26c2f0cf4177618e4921877f6f281a/label.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/18ffd0a9ed26c2f0cf4177618e4921877f6f281a/label.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/18ffd0a9ed26c2f0cf4177618e4921877f6f281a/loader.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/18ffd0a9ed26c2f0cf4177618e4921877f6f281a/loader.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/18ffd0a9ed26c2f0cf4177618e4921877f6f281a/modal.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/18ffd0a9ed26c2f0cf4177618e4921877f6f281a/modal.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/18ffd0a9ed26c2f0cf4177618e4921877f6f281a/projects-work.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/18ffd0a9ed26c2f0cf4177618e4921877f6f281a/projects-work.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/34efa35aca9ed68f3cd1cc1b967554eb8587c409/footer.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/34efa35aca9ed68f3cd1cc1b967554eb8587c409/footer.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/34efa35aca9ed68f3cd1cc1b967554eb8587c409/header.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/34efa35aca9ed68f3cd1cc1b967554eb8587c409/header.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/34efa35aca9ed68f3cd1cc1b967554eb8587c409/main.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/34efa35aca9ed68f3cd1cc1b967554eb8587c409/main.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/871bc1d241603106f8e2f73f82455f02f761584b/style.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/871bc1d241603106f8e2f73f82455f02f761584b/style.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/9d8d996f88b33c0a6e53acf916154ef89cdf4bdf/about.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/9d8d996f88b33c0a6e53acf916154ef89cdf4bdf/about.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/9d8d996f88b33c0a6e53acf916154ef89cdf4bdf/contact.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/9d8d996f88b33c0a6e53acf916154ef89cdf4bdf/contact.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/9d8d996f88b33c0a6e53acf916154ef89cdf4bdf/error.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/9d8d996f88b33c0a6e53acf916154ef89cdf4bdf/error.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/9d8d996f88b33c0a6e53acf916154ef89cdf4bdf/index.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/9d8d996f88b33c0a6e53acf916154ef89cdf4bdf/index.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/c99320a534b32999e433ca82ef8bb07be06020c3/essentials.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/c99320a534b32999e433ca82ef8bb07be06020c3/essentials.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/c99320a534b32999e433ca82ef8bb07be06020c3/layout.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/c99320a534b32999e433ca82ef8bb07be06020c3/layout.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/c99320a534b32999e433ca82ef8bb07be06020c3/theme.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/c99320a534b32999e433ca82ef8bb07be06020c3/theme.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/e0213d50043219104b67a90e4942b54fb3d9738a/animations.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/e0213d50043219104b67a90e4942b54fb3d9738a/animations.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/e0213d50043219104b67a90e4942b54fb3d9738a/functions.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/e0213d50043219104b67a90e4942b54fb3d9738a/functions.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/e0213d50043219104b67a90e4942b54fb3d9738a/mixins.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/e0213d50043219104b67a90e4942b54fb3d9738a/mixins.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/.sass-cache/e0213d50043219104b67a90e4942b54fb3d9738a/variables.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/scss/dev/.sass-cache/e0213d50043219104b67a90e4942b54fb3d9738a/variables.scssc",
-		"oF": 0
-		},
-	"/css/scss/dev/style.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "/css/style.css",
-		"oF": 2,
-		"oS": 0,
-		"uL": 0
-		},
-	"/css/scss/dev/utilities/animations.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/scss/dev/utilities/animations.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css/scss/dev/utilities/functions.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/scss/dev/utilities/functions.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css/scss/dev/utilities/mixins.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/scss/dev/utilities/mixins.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css/scss/dev/utilities/variables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/scss/dev/utilities/variables.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/css/style.css": {
 		"aP": 1,
 		"bl": 1,
@@ -900,6 +643,22 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/img/photos/team/Payslip-05_17_2019 (Michael-Target) .pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/img/photos/team/Payslip-05_17_2019 (Michael-Target) .pdf",
+		"oF": 0
+		},
+	"/img/photos/team/Payslip-05_17_2019.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/img/photos/team/Payslip-05_17_2019.pdf",
+		"oF": 0
 		},
 	"/img/photos/team/team-michael.jpg": {
 		"ft": 16384,
